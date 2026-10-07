@@ -1,0 +1,15 @@
+# shapG 0.14.2 contains the Markovian process explainer (MarkovianExplainer)
+# used in the paper; its own dependencies (numpy, pandas, scipy, scikit-learn,
+# networkx, matplotlib, loguru, ...) are installed with it.
+shapG==0.14.2
+
+# Used by the experiment scripts only
+lightgbm>=3.3
+shap
+pyyaml
+
+# Optional: transition-graph figures (also needs the Graphviz "dot" binary)
+graphviz
+
+# Optional: figure style used in the paper (matplotlib defaults otherwise)
+gnuplot-style==0.1.3

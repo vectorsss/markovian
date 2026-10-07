@@ -1,0 +1,233 @@
+{
+  "markovian_empty": {
+    "stopping_point": 9,
+    "n_players": 35,
+    "greedy_order": [
+      "doctor_recc_h1n1",
+      "health_insurance",
+      "opinion_h1n1_risk",
+      "opinion_h1n1_vacc_effective",
+      "employment_occupation",
+      "doctor_recc_seasonal",
+      "census_msa",
+      "opinion_seas_risk",
+      "chronic_med_condition"
+    ],
+    "final_coalition": [
+      "employment_occupation",
+      "opinion_seas_risk",
+      "opinion_h1n1_vacc_effective",
+      "chronic_med_condition",
+      "opinion_h1n1_risk",
+      "doctor_recc_h1n1",
+      "health_insurance",
+      "doctor_recc_seasonal",
+      "census_msa"
+    ],
+    "absorbing_metric_mean": 0.8554848371396481,
+    "absorbing_metric_min": 0.8554848371396481,
+    "absorbing_metric_max": 0.8554848371396481,
+    "absorbing_metrics": [
+      0.8554848371396481
+    ],
+    "full_set_metric": 0.8562336203669038,
+    "transitions": {
+      "[]": {
+        "['9']": 1
+      },
+      "['9']": {
+        "['14', '9']": 1
+      },
+      "['14', '9']": {
+        "['14', '16', '9']": 1
+      },
+      "['14', '16', '9']": {
+        "['14', '15', '16', '9']": 1
+      },
+      "['14', '15', '16', '9']": {
+        "['14', '15', '16', '34', '9']": 1
+      },
+      "['14', '15', '16', '34', '9']": {
+        "['10', '14', '15', '16', '34', '9']": 1
+      },
+      "['10', '14', '15', '16', '34', '9']": {
+        "['10', '14', '15', '16', '30', '34', '9']": 1
+      },
+      "['10', '14', '15', '16', '30', '34', '9']": {
+        "['10', '14', '15', '16', '19', '30', '34', '9']": 1
+      },
+      "['10', '14', '15', '16', '19', '30', '34', '9']": {
+        "['10', '11', '14', '15', '16', '19', '30', '34', '9']": 1
+      }
+    },
+    "scenario_paths": [
+      [
+        "[]",
+        "['9']",
+        "['14', '9']",
+        "['14', '16', '9']",
+        "['14', '15', '16', '9']",
+        "['14', '15', '16', '34', '9']",
+        "['10', '14', '15', '16', '34', '9']",
+        "['10', '14', '15', '16', '30', '34', '9']",
+        "['10', '14', '15', '16', '19', '30', '34', '9']",
+        "['10', '11', '14', '15', '16', '19', '30', '34', '9']"
+      ]
+    ]
+  },
+  "markovian_mi003": {
+    "stopping_point": 9,
+    "n_players": 35,
+    "greedy_order": [
+      "health_insurance",
+      "doctor_recc_h1n1",
+      "opinion_h1n1_risk",
+      "opinion_h1n1_vacc_effective",
+      "opinion_seas_risk",
+      "employment_occupation",
+      "doctor_recc_seasonal",
+      "census_msa",
+      "chronic_med_condition"
+    ],
+    "final_coalition": [
+      "employment_occupation",
+      "opinion_seas_risk",
+      "opinion_h1n1_vacc_effective",
+      "chronic_med_condition",
+      "opinion_h1n1_risk",
+      "doctor_recc_h1n1",
+      "health_insurance",
+      "doctor_recc_seasonal",
+      "census_msa"
+    ],
+    "absorbing_metric_mean": 0.8554848371396481,
+    "absorbing_metric_min": 0.8554848371396481,
+    "absorbing_metric_max": 0.8554848371396481,
+    "absorbing_metrics": [
+      0.8554848371396481
+    ],
+    "full_set_metric": 0.8562336203669038,
+    "transitions": {
+      "['14', '15', '16', '19', '9']": {
+        "['14', '15', '16', '19', '34', '9']": 1
+      },
+      "['14', '15', '16', '19', '34', '9']": {
+        "['14', '15', '16', '19', '34', '7', '9']": 1
+      },
+      "['14', '15', '16', '19', '34', '7', '9']": {
+        "['10', '14', '15', '16', '19', '34', '7', '9']": 1
+      },
+      "['10', '14', '15', '16', '19', '34', '7', '9']": {
+        "['10', '14', '15', '16', '19', '30', '34', '7', '9']": 1
+      },
+      "['10', '14', '15', '16', '19', '30', '34', '7', '9']": {
+        "['10', '11', '14', '15', '16', '19', '30', '34', '7', '9']": 1
+      },
+      "['10', '11', '14', '15', '16', '19', '30', '34', '7', '9']": {
+        "['10', '11', '14', '15', '16', '19', '30', '34', '9']": 1
+      }
+    },
+    "scenario_paths": [
+      [
+        "['14', '15', '16', '19', '9']",
+        "['14', '15', '16', '19', '34', '9']",
+        "['14', '15', '16', '19', '34', '7', '9']",
+        "['10', '14', '15', '16', '19', '34', '7', '9']",
+        "['10', '14', '15', '16', '19', '30', '34', '7', '9']",
+        "['10', '11', '14', '15', '16', '19', '30', '34', '7', '9']",
+        "['10', '11', '14', '15', '16', '19', '30', '34', '9']"
+      ]
+    ]
+  },
+  "markovian_full": {
+    "stopping_point": 35,
+    "n_players": 35,
+    "greedy_order": [
+      "health_insurance",
+      "doctor_recc_h1n1",
+      "opinion_h1n1_vacc_effective",
+      "opinion_h1n1_sick_from_vacc",
+      "opinion_h1n1_risk",
+      "doctor_recc_seasonal",
+      "opinion_seas_vacc_effective",
+      "h1n1_knowledge",
+      "behavioral_antiviral_meds",
+      "employment_occupation",
+      "behavioral_outside_home",
+      "opinion_seas_sick_from_vacc",
+      "behavioral_avoidance",
+      "h1n1_concern",
+      "census_msa",
+      "household_children",
+      "employment_industry",
+      "health_worker",
+      "hhs_geo_region",
+      "opinion_seas_risk",
+      "behavioral_wash_hands",
+      "child_under_6_months",
+      "race",
+      "employment_status",
+      "household_adults",
+      "behavioral_touch_face",
+      "chronic_med_condition",
+      "sex",
+      "behavioral_face_mask",
+      "behavioral_large_gatherings",
+      "education",
+      "income_poverty",
+      "age_group",
+      "rent_or_own",
+      "marital_status"
+    ],
+    "final_coalition": [
+      "behavioral_large_gatherings",
+      "behavioral_touch_face",
+      "employment_industry",
+      "opinion_h1n1_vacc_effective",
+      "rent_or_own",
+      "opinion_h1n1_risk",
+      "household_adults",
+      "age_group",
+      "hhs_geo_region",
+      "income_poverty",
+      "opinion_seas_risk",
+      "employment_status",
+      "h1n1_concern",
+      "marital_status",
+      "employment_occupation",
+      "opinion_seas_sick_from_vacc",
+      "behavioral_avoidance",
+      "household_children",
+      "child_under_6_months",
+      "doctor_recc_h1n1",
+      "doctor_recc_seasonal",
+      "opinion_h1n1_sick_from_vacc",
+      "behavioral_outside_home",
+      "behavioral_antiviral_meds",
+      "education",
+      "h1n1_knowledge",
+      "race",
+      "sex",
+      "chronic_med_condition",
+      "behavioral_face_mask",
+      "health_worker",
+      "behavioral_wash_hands",
+      "health_insurance",
+      "opinion_seas_vacc_effective",
+      "census_msa"
+    ],
+    "absorbing_metric_mean": 0.8562336203669038,
+    "absorbing_metric_min": 0.8562336203669038,
+    "absorbing_metric_max": 0.8562336203669038,
+    "absorbing_metrics": [
+      0.8562336203669038
+    ],
+    "full_set_metric": 0.8562336203669038,
+    "transitions": {},
+    "scenario_paths": [
+      [
+        "['0', '1', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '2', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '3', '30', '31', '32', '33', '34', '4', '5', '6', '7', '8', '9']"
+      ]
+    ]
+  }
+}

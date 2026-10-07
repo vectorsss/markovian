@@ -1,0 +1,20 @@
+{
+  "markovian_greedy_empty": 15.364046096801758,
+  "markovian_greedy_rho": 8.36540699005127,
+  "markovian_greedy_full": 6.340094327926636,
+  "markovian_linear_empty": 1439.770359992981,
+  "markovian_linear_rho": 694.0261521339417,
+  "markovian_linear_full": 7.031079292297363,
+  "markovian_softmax_01_empty": 2415.223087310791,
+  "markovian_softmax_01_rho": 1087.7315781116486,
+  "markovian_softmax_01_full": 7.930433034896851,
+  "markovian_top_p_09_t01_empty": 2306.182067155838,
+  "markovian_top_p_09_t01_rho": 912.0234191417694,
+  "markovian_top_p_09_t01_full": 6.971311330795288,
+  "markovian_top_k_3_empty": 919.6679861545563,
+  "markovian_top_k_3_rho": 488.7901668548584,
+  "markovian_top_k_3_full": 6.279129266738892,
+  "markovian_min_p_05_t05_empty": 2523.385385990143,
+  "markovian_min_p_05_t05_rho": 1105.031956911087,
+  "markovian_min_p_05_t05_full": 6.36254096031189
+}

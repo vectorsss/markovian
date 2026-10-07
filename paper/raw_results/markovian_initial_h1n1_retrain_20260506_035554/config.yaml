@@ -1,0 +1,244 @@
+characteristic_function:
+  params:
+    imputation_strategy: mean
+    no_retrain: false
+  type: model_based
+dataset: h1n1
+evaluation:
+  enabled: true
+  imputation_strategy: mean
+  limit: 20
+  retrain_kpi: true
+  weighted_slope_beta: 0.8
+explainers:
+  markovian_greedy_empty:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      min_improvement: 0.0
+      n_scenarios: 1
+      seed: 42
+      strategy: greedy
+      verbose: true
+  markovian_greedy_full:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.0
+      min_improvement: 0.0
+      n_scenarios: 1
+      seed: 42
+      strategy: greedy
+      verbose: true
+  markovian_greedy_rho:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.03
+      min_improvement: 0.0
+      n_scenarios: 1
+      seed: 42
+      strategy: greedy
+      verbose: true
+  markovian_linear_empty:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: linear
+      verbose: true
+  markovian_linear_full:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.0
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: linear
+      verbose: true
+  markovian_linear_rho:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.03
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: linear
+      verbose: true
+  markovian_min_p_05_t05_empty:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: min_p
+      strategy_param: 0.5
+      temperature: 0.5
+      verbose: true
+  markovian_min_p_05_t05_full:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.0
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: min_p
+      strategy_param: 0.5
+      temperature: 0.5
+      verbose: true
+  markovian_min_p_05_t05_rho:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.03
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: min_p
+      strategy_param: 0.5
+      temperature: 0.5
+      verbose: true
+  markovian_softmax_01_empty:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: softmax
+      temperature: 0.1
+      verbose: true
+  markovian_softmax_01_full:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.0
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: softmax
+      temperature: 0.1
+      verbose: true
+  markovian_softmax_01_rho:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.03
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: softmax
+      temperature: 0.1
+      verbose: true
+  markovian_top_k_3_empty:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: top_k
+      strategy_param: 3
+      verbose: true
+  markovian_top_k_3_full:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.0
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: top_k
+      strategy_param: 3
+      verbose: true
+  markovian_top_k_3_rho:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.03
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: top_k
+      strategy_param: 3
+      verbose: true
+  markovian_top_p_09_t01_empty:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: top_p
+      strategy_param: 0.9
+      temperature: 0.1
+      verbose: true
+  markovian_top_p_09_t01_full:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.0
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: top_p
+      strategy_param: 0.9
+      temperature: 0.1
+      verbose: true
+  markovian_top_p_09_t01_rho:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      allow_leave: true
+      correlation_threshold: 0.03
+      min_improvement: 0.0
+      n_scenarios: 50
+      seed: 42
+      strategy: top_p
+      strategy_param: 0.9
+      temperature: 0.1
+      verbose: true
+graphs:
+  kendalltau:
+    method: from_kendalltau_minimal_edge
+    params:
+      reverse: true
+      version: v3
+model:
+  params:
+    n_estimators: 100
+    random_state: 42
+    verbosity: -1
+  train_test_split:
+    random_state: 42
+    test_size: 0.2
+  type: LGBMClassifier
+plot:
+  dpi: 300
+  figsize:
+  - 12
+  - 8
+seed: 42

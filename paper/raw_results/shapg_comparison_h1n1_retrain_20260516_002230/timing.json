@@ -1,0 +1,10 @@
+{
+  "markovian_empty": 15.840096950531006,
+  "markovian_mi003": 13.625640869140625,
+  "markovian_full": 2.89896297454834,
+  "kernel_shap": 12.973591089248657,
+  "sampling_shap": 36.51331973075867,
+  "leverage_shap": 343.3272240161896,
+  "shapg | rank_deletion_cosine": 23.667659997940063,
+  "shapg | rank_deletion_mutual_info": 19.608340978622437
+}

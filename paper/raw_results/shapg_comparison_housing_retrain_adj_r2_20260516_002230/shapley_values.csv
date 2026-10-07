@@ -1,0 +1,105 @@
+method,node,shapley_value
+markovian_empty,CRIM,0.0166460557434195
+markovian_empty,ZN,0.0
+markovian_empty,INDUS,0.0
+markovian_empty,CHAS,0.0
+markovian_empty,NOX,0.0808311249156432
+markovian_empty,RM,0.0337797176235442
+markovian_empty,AGE,0.0
+markovian_empty,DIS,0.0165641431809308
+markovian_empty,RAD,0.0
+markovian_empty,TAX,0.0
+markovian_empty,PTRATIO,0.0682749166261413
+markovian_empty,B,0.0
+markovian_empty,LSTAT,0.6636966555950108
+markovian_corr06,CRIM,0.0
+markovian_corr06,ZN,0.0
+markovian_corr06,INDUS,0.0
+markovian_corr06,CHAS,0.0
+markovian_corr06,NOX,0.1312705040021824
+markovian_corr06,RM,0.0531023350451191
+markovian_corr06,AGE,0.01541604681597
+markovian_corr06,DIS,0.0
+markovian_corr06,RAD,0.012071409986525
+markovian_corr06,TAX,0.0
+markovian_corr06,PTRATIO,0.0
+markovian_corr06,B,0.0084680547660079
+markovian_corr06,LSTAT,0.2315050027129899
+markovian_full,CRIM,0.0209598890562692
+markovian_full,ZN,-0.0005005152647964
+markovian_full,INDUS,0.0021705785230277
+markovian_full,CHAS,0.0
+markovian_full,NOX,0.0131027901855514
+markovian_full,RM,0.1034104294732713
+markovian_full,AGE,0.0098562962624619
+markovian_full,DIS,0.0126470137930135
+markovian_full,RAD,0.0081863476322842
+markovian_full,TAX,0.0137852409411082
+markovian_full,PTRATIO,0.0093057566440614
+markovian_full,B,0.0099129369097717
+markovian_full,LSTAT,0.046005202626522
+kernel_shap,CRIM,0.4662381609932618
+kernel_shap,ZN,0.0150797729775757
+kernel_shap,INDUS,0.2148426381713224
+kernel_shap,CHAS,0.0523165372810134
+kernel_shap,NOX,0.555433883479555
+kernel_shap,RM,2.184262304722333
+kernel_shap,AGE,0.6520310232299644
+kernel_shap,DIS,0.6333205330987444
+kernel_shap,RAD,0.0555838921601933
+kernel_shap,TAX,0.3179662999169003
+kernel_shap,PTRATIO,0.5843339125500894
+kernel_shap,B,0.2459480562413629
+kernel_shap,LSTAT,3.271953221886831
+sampling_shap,CRIM,0.4781513583265686
+sampling_shap,ZN,0.0352457370446695
+sampling_shap,INDUS,0.2227263939499222
+sampling_shap,CHAS,0.0783678791437625
+sampling_shap,NOX,0.5591090678148098
+sampling_shap,RM,2.188595962983076
+sampling_shap,AGE,0.6643728571253794
+sampling_shap,DIS,0.632262845859724
+sampling_shap,RAD,0.0836004074896252
+sampling_shap,TAX,0.3212383570367496
+sampling_shap,PTRATIO,0.5870205590399598
+sampling_shap,B,0.2504656749417142
+sampling_shap,LSTAT,3.277919935605737
+leverage_shap,RM,0.1882551180124588
+leverage_shap,PTRATIO,0.0830574140603806
+leverage_shap,NOX,0.1258601969989365
+leverage_shap,B,0.0151035537361663
+leverage_shap,AGE,0.0148072828634415
+leverage_shap,TAX,0.0317336637215601
+leverage_shap,INDUS,0.0674698003202166
+leverage_shap,LSTAT,0.2078255596390626
+leverage_shap,RAD,0.0069785473014765
+leverage_shap,DIS,0.0596999117003151
+leverage_shap,CRIM,0.0469667490575322
+leverage_shap,ZN,0.0391055936732402
+leverage_shap,CHAS,-0.0173710334530137
+shapg | rank_deletion_cosine,RM,0.5064800755029988
+shapg | rank_deletion_cosine,PTRATIO,0.29692580171521366
+shapg | rank_deletion_cosine,NOX,0.46663515040345566
+shapg | rank_deletion_cosine,B,0.060783770106326074
+shapg | rank_deletion_cosine,AGE,0.03481867195490268
+shapg | rank_deletion_cosine,TAX,0.14618104940245658
+shapg | rank_deletion_cosine,INDUS,0.2828799546614243
+shapg | rank_deletion_cosine,LSTAT,0.4372934531868706
+shapg | rank_deletion_cosine,RAD,0.023468742305627933
+shapg | rank_deletion_cosine,DIS,0.19567237485180677
+shapg | rank_deletion_cosine,CRIM,0.10743126349396648
+shapg | rank_deletion_cosine,ZN,0.08643397244847417
+shapg | rank_deletion_cosine,CHAS,-0.014543477563596169
+shapg | rank_deletion_mutual_info,CRIM,0.24112211484612933
+shapg | rank_deletion_mutual_info,LSTAT,0.687610570025049
+shapg | rank_deletion_mutual_info,RM,0.5064800755029988
+shapg | rank_deletion_mutual_info,INDUS,0.4205406699159961
+shapg | rank_deletion_mutual_info,TAX,0.14618104940245658
+shapg | rank_deletion_mutual_info,DIS,0.1713085273392064
+shapg | rank_deletion_mutual_info,AGE,0.14005245059438226
+shapg | rank_deletion_mutual_info,PTRATIO,0.29692580171521366
+shapg | rank_deletion_mutual_info,B,-0.004916411528882329
+shapg | rank_deletion_mutual_info,NOX,0.46663515040345566
+shapg | rank_deletion_mutual_info,RAD,0.024832002485515307
+shapg | rank_deletion_mutual_info,ZN,0.2517220709693592
+shapg | rank_deletion_mutual_info,CHAS,-0.015181996954625517

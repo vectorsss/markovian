@@ -1,0 +1,281 @@
+method,node,shapley_value
+markovian_empty,h1n1_concern,0.0
+markovian_empty,h1n1_knowledge,0.0
+markovian_empty,behavioral_antiviral_meds,0.0
+markovian_empty,behavioral_avoidance,0.0
+markovian_empty,behavioral_face_mask,0.0
+markovian_empty,behavioral_wash_hands,0.0
+markovian_empty,behavioral_large_gatherings,0.0
+markovian_empty,behavioral_outside_home,0.0
+markovian_empty,behavioral_touch_face,0.0
+markovian_empty,doctor_recc_h1n1,0.8023212280044927
+markovian_empty,doctor_recc_seasonal,0.0020591538749532
+markovian_empty,chronic_med_condition,0.0022463496817671
+markovian_empty,child_under_6_months,0.0
+markovian_empty,health_worker,0.0
+markovian_empty,health_insurance,0.0213403219767877
+markovian_empty,opinion_h1n1_vacc_effective,0.0076750280793709
+markovian_empty,opinion_h1n1_risk,0.0134780980906028
+markovian_empty,opinion_h1n1_sick_from_vacc,0.0
+markovian_empty,opinion_seas_vacc_effective,0.0
+markovian_empty,opinion_seas_risk,0.0001871958068139
+markovian_empty,opinion_seas_sick_from_vacc,0.0
+markovian_empty,age_group,0.0
+markovian_empty,education,0.0
+markovian_empty,race,0.0
+markovian_empty,sex,0.0
+markovian_empty,income_poverty,0.0
+markovian_empty,marital_status,0.0
+markovian_empty,rent_or_own,0.0
+markovian_empty,employment_status,0.0
+markovian_empty,hhs_geo_region,0.0
+markovian_empty,census_msa,0.0026207412953949
+markovian_empty,household_adults,0.0
+markovian_empty,household_children,0.0
+markovian_empty,employment_industry,0.0
+markovian_empty,employment_occupation,0.0035567203294646
+markovian_mi003,h1n1_concern,0.0
+markovian_mi003,h1n1_knowledge,0.0
+markovian_mi003,behavioral_antiviral_meds,0.0
+markovian_mi003,behavioral_avoidance,0.0
+markovian_mi003,behavioral_face_mask,0.0
+markovian_mi003,behavioral_wash_hands,0.0
+markovian_mi003,behavioral_large_gatherings,0.0
+markovian_mi003,behavioral_outside_home,0.0031823287158367
+markovian_mi003,behavioral_touch_face,0.0
+markovian_mi003,doctor_recc_h1n1,0.0181579932609509
+markovian_mi003,doctor_recc_seasonal,0.0022463496817671
+markovian_mi003,chronic_med_condition,0.0003743916136278
+markovian_mi003,child_under_6_months,0.0
+markovian_mi003,health_worker,0.0
+markovian_mi003,health_insurance,0.0219019093972294
+markovian_mi003,opinion_h1n1_vacc_effective,0.0073006364657431
+markovian_mi003,opinion_h1n1_risk,0.0112317484088356
+markovian_mi003,opinion_h1n1_sick_from_vacc,0.0
+markovian_mi003,opinion_seas_vacc_effective,0.0
+markovian_mi003,opinion_seas_risk,0.0018719580681393
+markovian_mi003,opinion_seas_sick_from_vacc,0.0
+markovian_mi003,age_group,0.0
+markovian_mi003,education,0.0
+markovian_mi003,race,0.0
+markovian_mi003,sex,0.0
+markovian_mi003,income_poverty,0.0
+markovian_mi003,marital_status,0.0
+markovian_mi003,rent_or_own,0.0
+markovian_mi003,employment_status,0.0
+markovian_mi003,hhs_geo_region,0.0
+markovian_mi003,census_msa,0.0005615874204417
+markovian_mi003,household_adults,0.0
+markovian_mi003,household_children,0.0
+markovian_mi003,employment_industry,0.0
+markovian_mi003,employment_occupation,0.0024335454885809
+markovian_full,h1n1_concern,0.0033695245226507
+markovian_full,h1n1_knowledge,0.0043055035567203
+markovian_full,behavioral_antiviral_meds,0.0043055035567203
+markovian_full,behavioral_avoidance,0.0035567203294646
+markovian_full,behavioral_face_mask,0.0009359790340696
+markovian_full,behavioral_wash_hands,0.0024335454885809
+markovian_full,behavioral_large_gatherings,0.0009359790340696
+markovian_full,behavioral_outside_home,0.0037439161362785
+markovian_full,behavioral_touch_face,0.0011231748408835
+markovian_full,doctor_recc_h1n1,0.0159116435791838
+markovian_full,doctor_recc_seasonal,0.004867090977162
+markovian_full,chronic_med_condition,0.0011231748408835
+markovian_full,child_under_6_months,0.002246349681767
+markovian_full,health_worker,0.0029951329090228
+markovian_full,health_insurance,0.0170348184200673
+markovian_full,opinion_h1n1_vacc_effective,0.0080494196929988
+markovian_full,opinion_h1n1_risk,0.0065518532384873
+markovian_full,opinion_h1n1_sick_from_vacc,0.0067390490453013
+markovian_full,opinion_seas_vacc_effective,0.0044926993635342
+markovian_full,opinion_seas_risk,0.0026207412953949
+markovian_full,opinion_seas_sick_from_vacc,0.0037439161362785
+markovian_full,age_group,0.0003743916136278
+markovian_full,education,0.0009359790340696
+markovian_full,race,0.0018719580681392
+markovian_full,sex,0.0011231748408835
+markovian_full,income_poverty,0.0009359790340696
+markovian_full,marital_status,0.0
+markovian_full,rent_or_own,0.0001871958068139
+markovian_full,employment_status,0.0016847622613253
+markovian_full,hhs_geo_region,0.0028079371022088
+markovian_full,census_msa,0.0033695245226507
+markovian_full,household_adults,0.0016847622613253
+markovian_full,household_children,0.0031823287158367
+markovian_full,employment_industry,0.0031823287158367
+markovian_full,employment_occupation,0.0039311119430924
+kernel_shap,h1n1_concern,0.002670936716941
+kernel_shap,h1n1_knowledge,0.0056514945409632
+kernel_shap,behavioral_antiviral_meds,0.0003203219550422
+kernel_shap,behavioral_avoidance,3.728871566034631e-05
+kernel_shap,behavioral_face_mask,0.0007685883344096
+kernel_shap,behavioral_wash_hands,0.0003463392968059
+kernel_shap,behavioral_large_gatherings,0.0011936366108652
+kernel_shap,behavioral_outside_home,0.0
+kernel_shap,behavioral_touch_face,0.0
+kernel_shap,doctor_recc_h1n1,0.0933797883964491
+kernel_shap,doctor_recc_seasonal,0.0111488913239498
+kernel_shap,chronic_med_condition,0.0003857195316776
+kernel_shap,child_under_6_months,0.0015489790818728
+kernel_shap,health_worker,0.0080001771203755
+kernel_shap,health_insurance,0.079149635816163
+kernel_shap,opinion_h1n1_vacc_effective,0.0435711346487249
+kernel_shap,opinion_h1n1_risk,0.0507593296199562
+kernel_shap,opinion_h1n1_sick_from_vacc,0.0082309898105615
+kernel_shap,opinion_seas_vacc_effective,0.0055006765805168
+kernel_shap,opinion_seas_risk,0.0145589726562437
+kernel_shap,opinion_seas_sick_from_vacc,0.0033237771764294
+kernel_shap,age_group,0.0095829360303724
+kernel_shap,education,0.0021747926511496
+kernel_shap,race,0.0012185677195752
+kernel_shap,sex,0.0034692268028458
+kernel_shap,income_poverty,0.0019514013057987
+kernel_shap,marital_status,0.0013750805923108
+kernel_shap,rent_or_own,0.0005512754595305
+kernel_shap,employment_status,0.0002985991418269
+kernel_shap,hhs_geo_region,0.0007122038591017
+kernel_shap,census_msa,0.0006245921284077
+kernel_shap,household_adults,0.0004954613806081
+kernel_shap,household_children,0.0007874319600967
+kernel_shap,employment_industry,0.0030885031218114
+kernel_shap,employment_occupation,0.0100775263846165
+sampling_shap,h1n1_concern,0.005846452778863
+sampling_shap,h1n1_knowledge,0.0096457800748724
+sampling_shap,behavioral_antiviral_meds,0.0014312410998191
+sampling_shap,behavioral_avoidance,0.0010354279580023
+sampling_shap,behavioral_face_mask,0.0016637427269662
+sampling_shap,behavioral_wash_hands,0.0017265481946151
+sampling_shap,behavioral_large_gatherings,0.0057740091514645
+sampling_shap,behavioral_outside_home,0.0013698145752402
+sampling_shap,behavioral_touch_face,0.000971320882783
+sampling_shap,doctor_recc_h1n1,0.0942350889507463
+sampling_shap,doctor_recc_seasonal,0.0156343996868524
+sampling_shap,chronic_med_condition,0.0030082263156396
+sampling_shap,child_under_6_months,0.0025320792871105
+sampling_shap,health_worker,0.0113467523171516
+sampling_shap,health_insurance,0.080713161163496
+sampling_shap,opinion_h1n1_vacc_effective,0.0452604662900346
+sampling_shap,opinion_h1n1_risk,0.0521783262594868
+sampling_shap,opinion_h1n1_sick_from_vacc,0.0111265821369679
+sampling_shap,opinion_seas_vacc_effective,0.008991467470101
+sampling_shap,opinion_seas_risk,0.0170130780395736
+sampling_shap,opinion_seas_sick_from_vacc,0.0074925846666495
+sampling_shap,age_group,0.0126807283368226
+sampling_shap,education,0.0050258270004058
+sampling_shap,race,0.0040226230135931
+sampling_shap,sex,0.0077308449305406
+sampling_shap,income_poverty,0.0051392809311838
+sampling_shap,marital_status,0.0046318885671305
+sampling_shap,rent_or_own,0.0028209888275588
+sampling_shap,employment_status,0.0025143804088653
+sampling_shap,hhs_geo_region,0.0053213148662097
+sampling_shap,census_msa,0.003447375514857
+sampling_shap,household_adults,0.0019604896314859
+sampling_shap,household_children,0.0024081859413906
+sampling_shap,employment_industry,0.0071013546675487
+sampling_shap,employment_occupation,0.0131602608717123
+leverage_shap,opinion_h1n1_vacc_effective,0.0407616652474579
+leverage_shap,opinion_seas_vacc_effective,0.0204474178698754
+leverage_shap,employment_industry,0.0113483294807747
+leverage_shap,employment_occupation,0.0295213026970272
+leverage_shap,race,0.0238952329560338
+leverage_shap,opinion_h1n1_risk,0.0391497104682018
+leverage_shap,opinion_seas_risk,0.0069162048565822
+leverage_shap,behavioral_wash_hands,0.0435139673553234
+leverage_shap,h1n1_knowledge,-0.0028492848689778
+leverage_shap,h1n1_concern,0.0147985939867666
+leverage_shap,opinion_h1n1_sick_from_vacc,0.0247883724338531
+leverage_shap,opinion_seas_sick_from_vacc,0.0210740692672327
+leverage_shap,behavioral_avoidance,0.0511565096019983
+leverage_shap,hhs_geo_region,0.0196515567955162
+leverage_shap,behavioral_touch_face,0.0279589243514745
+leverage_shap,age_group,0.0297837683210232
+leverage_shap,education,0.0256558311386715
+leverage_shap,employment_status,0.0250402461221377
+leverage_shap,household_adults,0.0236636046342469
+leverage_shap,behavioral_large_gatherings,0.0164925911133482
+leverage_shap,behavioral_outside_home,0.0428241590101223
+leverage_shap,doctor_recc_h1n1,0.0239005080372022
+leverage_shap,doctor_recc_seasonal,0.0268452595296668
+leverage_shap,census_msa,0.0210276098268878
+leverage_shap,health_insurance,0.0329764690091402
+leverage_shap,marital_status,0.0316568242730109
+leverage_shap,rent_or_own,0.0024049333096769
+leverage_shap,income_poverty,0.0184487977924018
+leverage_shap,sex,0.0231629387089644
+leverage_shap,chronic_med_condition,0.0096081710327941
+leverage_shap,household_children,0.0312061610113188
+leverage_shap,health_worker,0.0366398495580129
+leverage_shap,behavioral_face_mask,0.026334788634648
+leverage_shap,child_under_6_months,0.0161269356704382
+leverage_shap,behavioral_antiviral_meds,0.0203016011340494
+shapg | rank_deletion_cosine,opinion_h1n1_vacc_effective,0.39395357543991016
+shapg | rank_deletion_cosine,opinion_seas_vacc_effective,0.39395357543991016
+shapg | rank_deletion_cosine,employment_industry,0.394327967053538
+shapg | rank_deletion_cosine,employment_occupation,0.39442156495694497
+shapg | rank_deletion_cosine,race,0.39395357543991016
+shapg | rank_deletion_cosine,opinion_h1n1_risk,0.3985398727068514
+shapg | rank_deletion_cosine,opinion_seas_risk,0.39395357543991016
+shapg | rank_deletion_cosine,behavioral_wash_hands,0.39395357543991016
+shapg | rank_deletion_cosine,h1n1_knowledge,0.39395357543991016
+shapg | rank_deletion_cosine,h1n1_concern,0.39395357543991016
+shapg | rank_deletion_cosine,opinion_h1n1_sick_from_vacc,0.39395357543991016
+shapg | rank_deletion_cosine,opinion_seas_sick_from_vacc,0.39395357543991016
+shapg | rank_deletion_cosine,behavioral_avoidance,0.39395357543991016
+shapg | rank_deletion_cosine,hhs_geo_region,0.39395357543991016
+shapg | rank_deletion_cosine,behavioral_touch_face,0.39395357543991016
+shapg | rank_deletion_cosine,age_group,0.39395357543991016
+shapg | rank_deletion_cosine,education,0.39395357543991016
+shapg | rank_deletion_cosine,employment_status,0.09844159490827405
+shapg | rank_deletion_cosine,household_adults,0.39395357543991016
+shapg | rank_deletion_cosine,behavioral_large_gatherings,0.39395357543991016
+shapg | rank_deletion_cosine,behavioral_outside_home,0.39395357543991016
+shapg | rank_deletion_cosine,doctor_recc_h1n1,0.4083676525645825
+shapg | rank_deletion_cosine,doctor_recc_seasonal,0.39395357543991016
+shapg | rank_deletion_cosine,census_msa,0.39395357543991016
+shapg | rank_deletion_cosine,health_insurance,0.39395357543991016
+shapg | rank_deletion_cosine,marital_status,0.0984750227309194
+shapg | rank_deletion_cosine,rent_or_own,0.09846165160186127
+shapg | rank_deletion_cosine,income_poverty,0.39395357543991016
+shapg | rank_deletion_cosine,sex,0.09848839385997754
+shapg | rank_deletion_cosine,chronic_med_condition,0.39395357543991016
+shapg | rank_deletion_cosine,household_children,0.09843490934374502
+shapg | rank_deletion_cosine,health_worker,0.09773961063272185
+shapg | rank_deletion_cosine,behavioral_face_mask,0.09841527049794085
+shapg | rank_deletion_cosine,child_under_6_months,0.09844744477723699
+shapg | rank_deletion_cosine,behavioral_antiviral_meds,0.09843364791647533
+shapg | rank_deletion_mutual_info,employment_industry,0.3940471733433171
+shapg | rank_deletion_mutual_info,employment_occupation,0.394327967053538
+shapg | rank_deletion_mutual_info,employment_status,0.39395357543991016
+shapg | rank_deletion_mutual_info,doctor_recc_h1n1,0.4083676525645825
+shapg | rank_deletion_mutual_info,doctor_recc_seasonal,0.39395357543991016
+shapg | rank_deletion_mutual_info,behavioral_large_gatherings,0.39395357543991016
+shapg | rank_deletion_mutual_info,behavioral_outside_home,0.09843457506551855
+shapg | rank_deletion_mutual_info,marital_status,0.39395357543991016
+shapg | rank_deletion_mutual_info,household_adults,0.09847669412205168
+shapg | rank_deletion_mutual_info,rent_or_own,0.09834799700486709
+shapg | rank_deletion_mutual_info,opinion_h1n1_risk,0.3977910894795956
+shapg | rank_deletion_mutual_info,opinion_seas_risk,0.39395357543991016
+shapg | rank_deletion_mutual_info,opinion_h1n1_sick_from_vacc,0.39395357543991016
+shapg | rank_deletion_mutual_info,opinion_seas_sick_from_vacc,0.09843490934374499
+shapg | rank_deletion_mutual_info,income_poverty,0.39395357543991016
+shapg | rank_deletion_mutual_info,opinion_h1n1_vacc_effective,0.39395357543991016
+shapg | rank_deletion_mutual_info,opinion_seas_vacc_effective,0.39395357543991016
+shapg | rank_deletion_mutual_info,education,0.39395357543991016
+shapg | rank_deletion_mutual_info,health_worker,0.39395357543991016
+shapg | rank_deletion_mutual_info,age_group,0.39395357543991016
+shapg | rank_deletion_mutual_info,household_children,0.09843574503931113
+shapg | rank_deletion_mutual_info,behavioral_wash_hands,0.39395357543991016
+shapg | rank_deletion_mutual_info,behavioral_touch_face,0.09848839385997754
+shapg | rank_deletion_mutual_info,behavioral_avoidance,0.0979502059153875
+shapg | rank_deletion_mutual_info,h1n1_concern,0.39395357543991016
+shapg | rank_deletion_mutual_info,h1n1_knowledge,0.39395357543991016
+shapg | rank_deletion_mutual_info,sex,0.19697678771995508
+shapg | rank_deletion_mutual_info,behavioral_face_mask,0.09835384687383
+shapg | rank_deletion_mutual_info,chronic_med_condition,0.19697678771995508
+shapg | rank_deletion_mutual_info,health_insurance,0.39395357543991016
+shapg | rank_deletion_mutual_info,behavioral_antiviral_meds,0.09842404530138528
+shapg | rank_deletion_mutual_info,race,0.39395357543991016
+shapg | rank_deletion_mutual_info,hhs_geo_region,0.39395357543991016
+shapg | rank_deletion_mutual_info,census_msa,0.09833462587580896
+shapg | rank_deletion_mutual_info,child_under_6_months,0.09848546892549608

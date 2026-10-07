@@ -1,0 +1,889 @@
+method,node,shapley_value
+markovian_empty,AGE,0.0
+markovian_empty,SEX,0.0
+markovian_empty,INF_ANAM,0.0
+markovian_empty,STENOK_AN,0.0
+markovian_empty,FK_STENOK,0.0
+markovian_empty,IBS_POST,0.0
+markovian_empty,GB,0.0
+markovian_empty,SIM_GIPERT,0.0
+markovian_empty,DLIT_AG,0.0
+markovian_empty,ZSN_A,0.011764705882353
+markovian_empty,nr_11,0.0
+markovian_empty,nr_01,0.0
+markovian_empty,nr_02,0.0
+markovian_empty,nr_03,0.0
+markovian_empty,nr_04,0.0
+markovian_empty,nr_07,0.0
+markovian_empty,nr_08,0.0
+markovian_empty,np_01,0.0
+markovian_empty,np_04,0.0
+markovian_empty,np_05,0.0
+markovian_empty,np_07,0.0
+markovian_empty,np_08,0.0
+markovian_empty,np_09,0.0
+markovian_empty,np_10,0.0
+markovian_empty,endocr_01,0.0029411764705882
+markovian_empty,endocr_02,0.0
+markovian_empty,endocr_03,0.0
+markovian_empty,zab_leg_01,0.0
+markovian_empty,zab_leg_02,0.0
+markovian_empty,zab_leg_03,0.0
+markovian_empty,zab_leg_04,0.0
+markovian_empty,zab_leg_06,0.0
+markovian_empty,S_AD_ORIT,0.0
+markovian_empty,D_AD_ORIT,0.0
+markovian_empty,O_L_POST,0.0
+markovian_empty,K_SH_POST,0.0
+markovian_empty,MP_TP_POST,0.0
+markovian_empty,SVT_POST,0.0
+markovian_empty,GT_POST,0.0
+markovian_empty,FIB_G_POST,0.0
+markovian_empty,ant_im,0.0
+markovian_empty,lat_im,0.0
+markovian_empty,inf_im,0.0
+markovian_empty,post_im,0.0
+markovian_empty,IM_PG_P,0.0
+markovian_empty,ritm_ecg_p_01,0.0
+markovian_empty,ritm_ecg_p_02,0.0
+markovian_empty,ritm_ecg_p_04,0.0
+markovian_empty,ritm_ecg_p_06,0.0
+markovian_empty,ritm_ecg_p_07,0.0
+markovian_empty,ritm_ecg_p_08,0.0
+markovian_empty,n_r_ecg_p_01,0.0
+markovian_empty,n_r_ecg_p_02,0.0
+markovian_empty,n_r_ecg_p_03,0.0
+markovian_empty,n_r_ecg_p_04,0.0
+markovian_empty,n_r_ecg_p_05,0.0
+markovian_empty,n_r_ecg_p_06,0.0
+markovian_empty,n_r_ecg_p_08,0.0
+markovian_empty,n_r_ecg_p_09,0.0
+markovian_empty,n_r_ecg_p_10,0.0
+markovian_empty,n_p_ecg_p_01,0.0
+markovian_empty,n_p_ecg_p_03,0.0
+markovian_empty,n_p_ecg_p_04,0.0
+markovian_empty,n_p_ecg_p_05,0.0
+markovian_empty,n_p_ecg_p_06,0.0
+markovian_empty,n_p_ecg_p_07,0.0
+markovian_empty,n_p_ecg_p_08,0.0
+markovian_empty,n_p_ecg_p_09,0.0
+markovian_empty,n_p_ecg_p_10,0.0
+markovian_empty,n_p_ecg_p_11,0.0
+markovian_empty,n_p_ecg_p_12,0.0
+markovian_empty,fibr_ter_01,0.0
+markovian_empty,fibr_ter_02,0.0
+markovian_empty,fibr_ter_03,0.0
+markovian_empty,fibr_ter_05,0.0
+markovian_empty,fibr_ter_06,0.0
+markovian_empty,fibr_ter_07,0.0
+markovian_empty,fibr_ter_08,0.0
+markovian_empty,ALT_BLOOD,0.0
+markovian_empty,AST_BLOOD,0.0058823529411764
+markovian_empty,L_BLOOD,0.0
+markovian_empty,ROE,0.0
+markovian_empty,TIME_B_S,0.0
+markovian_empty,R_AB_1_n,0.0
+markovian_empty,R_AB_2_n,0.0
+markovian_empty,R_AB_3_n,0.9176470588235294
+markovian_empty,NITR_S,0.0
+markovian_empty,NA_R_1_n,0.0
+markovian_empty,NA_R_2_n,0.0
+markovian_empty,NA_R_3_n,0.0
+markovian_empty,NOT_NA_1_n,0.0
+markovian_empty,NOT_NA_2_n,0.0
+markovian_empty,NOT_NA_3_n,0.0
+markovian_empty,LID_S_n,0.0
+markovian_empty,B_BLOK_S_n,0.0
+markovian_empty,ANT_CA_S_n,0.0
+markovian_empty,GEPAR_S_n,0.0
+markovian_empty,ASP_S_n,0.0
+markovian_empty,TIKL_S_n,0.0
+markovian_empty,TRENT_S_n,0.0
+markovian_empty,FIBR_PREDS,0.0029411764705882
+markovian_empty,PREDS_TAH,0.0
+markovian_empty,JELUD_TAH,0.0
+markovian_empty,FIBR_JELUD,0.0
+markovian_empty,A_V_BLOK,0.0
+markovian_empty,OTEK_LANC,0.0
+markovian_empty,RAZRIV,0.0264705882352941
+markovian_empty,DRESSLER,0.0
+markovian_empty,ZSN,0.0
+markovian_empty,REC_IM,0.0
+markovian_empty,P_IM_STEN,0.0
+markovian_mi003,AGE,0.0
+markovian_mi003,SEX,0.0
+markovian_mi003,INF_ANAM,0.0
+markovian_mi003,STENOK_AN,0.0
+markovian_mi003,FK_STENOK,0.0
+markovian_mi003,IBS_POST,0.0176470588235293
+markovian_mi003,GB,0.0
+markovian_mi003,SIM_GIPERT,0.0
+markovian_mi003,DLIT_AG,0.0058823529411764
+markovian_mi003,ZSN_A,0.0117647058823529
+markovian_mi003,nr_11,0.0029411764705882
+markovian_mi003,nr_01,0.0
+markovian_mi003,nr_02,0.0
+markovian_mi003,nr_03,0.0029411764705882
+markovian_mi003,nr_04,0.0
+markovian_mi003,nr_07,0.0
+markovian_mi003,nr_08,0.0
+markovian_mi003,np_01,0.0
+markovian_mi003,np_04,0.0
+markovian_mi003,np_05,0.0
+markovian_mi003,np_07,0.0
+markovian_mi003,np_08,0.0
+markovian_mi003,np_09,0.0
+markovian_mi003,np_10,0.0
+markovian_mi003,endocr_01,0.0
+markovian_mi003,endocr_02,0.0
+markovian_mi003,endocr_03,0.0029411764705882
+markovian_mi003,zab_leg_01,0.0
+markovian_mi003,zab_leg_02,0.0
+markovian_mi003,zab_leg_03,0.0029411764705882
+markovian_mi003,zab_leg_04,0.0
+markovian_mi003,zab_leg_06,0.0
+markovian_mi003,S_AD_ORIT,0.0088235294117646
+markovian_mi003,D_AD_ORIT,0.0
+markovian_mi003,O_L_POST,0.0
+markovian_mi003,K_SH_POST,0.0
+markovian_mi003,MP_TP_POST,0.0
+markovian_mi003,SVT_POST,0.0
+markovian_mi003,GT_POST,0.0
+markovian_mi003,FIB_G_POST,0.0
+markovian_mi003,ant_im,0.0176470588235293
+markovian_mi003,lat_im,0.0
+markovian_mi003,inf_im,0.0029411764705882
+markovian_mi003,post_im,0.0
+markovian_mi003,IM_PG_P,0.0
+markovian_mi003,ritm_ecg_p_01,0.0
+markovian_mi003,ritm_ecg_p_02,0.0
+markovian_mi003,ritm_ecg_p_04,0.0
+markovian_mi003,ritm_ecg_p_06,0.0
+markovian_mi003,ritm_ecg_p_07,0.0
+markovian_mi003,ritm_ecg_p_08,0.0
+markovian_mi003,n_r_ecg_p_01,0.0
+markovian_mi003,n_r_ecg_p_02,0.0
+markovian_mi003,n_r_ecg_p_03,0.0
+markovian_mi003,n_r_ecg_p_04,0.0
+markovian_mi003,n_r_ecg_p_05,0.0
+markovian_mi003,n_r_ecg_p_06,0.0
+markovian_mi003,n_r_ecg_p_08,0.0
+markovian_mi003,n_r_ecg_p_09,0.0
+markovian_mi003,n_r_ecg_p_10,0.0
+markovian_mi003,n_p_ecg_p_01,0.0
+markovian_mi003,n_p_ecg_p_03,0.0
+markovian_mi003,n_p_ecg_p_04,0.0
+markovian_mi003,n_p_ecg_p_05,0.0
+markovian_mi003,n_p_ecg_p_06,0.0
+markovian_mi003,n_p_ecg_p_07,0.0
+markovian_mi003,n_p_ecg_p_08,0.0
+markovian_mi003,n_p_ecg_p_09,0.0
+markovian_mi003,n_p_ecg_p_10,0.0
+markovian_mi003,n_p_ecg_p_11,0.0
+markovian_mi003,n_p_ecg_p_12,0.0
+markovian_mi003,fibr_ter_01,0.0
+markovian_mi003,fibr_ter_02,0.0
+markovian_mi003,fibr_ter_03,0.0
+markovian_mi003,fibr_ter_05,0.0
+markovian_mi003,fibr_ter_06,0.0
+markovian_mi003,fibr_ter_07,0.0
+markovian_mi003,fibr_ter_08,0.0
+markovian_mi003,ALT_BLOOD,0.0
+markovian_mi003,AST_BLOOD,0.0
+markovian_mi003,L_BLOOD,0.0147058823529411
+markovian_mi003,ROE,0.0
+markovian_mi003,TIME_B_S,0.0058823529411764
+markovian_mi003,R_AB_1_n,0.0
+markovian_mi003,R_AB_2_n,0.0088235294117646
+markovian_mi003,R_AB_3_n,0.0117647058823529
+markovian_mi003,NITR_S,0.0
+markovian_mi003,NA_R_1_n,0.0
+markovian_mi003,NA_R_2_n,0.0
+markovian_mi003,NA_R_3_n,0.0176470588235293
+markovian_mi003,NOT_NA_1_n,0.0
+markovian_mi003,NOT_NA_2_n,0.0058823529411764
+markovian_mi003,NOT_NA_3_n,0.0117647058823529
+markovian_mi003,LID_S_n,0.0
+markovian_mi003,B_BLOK_S_n,0.0
+markovian_mi003,ANT_CA_S_n,0.0
+markovian_mi003,GEPAR_S_n,0.0
+markovian_mi003,ASP_S_n,0.0
+markovian_mi003,TIKL_S_n,0.0
+markovian_mi003,TRENT_S_n,0.0
+markovian_mi003,FIBR_PREDS,0.0
+markovian_mi003,PREDS_TAH,0.0
+markovian_mi003,JELUD_TAH,0.0
+markovian_mi003,FIBR_JELUD,0.0
+markovian_mi003,A_V_BLOK,0.0
+markovian_mi003,OTEK_LANC,0.0
+markovian_mi003,RAZRIV,0.038235294117647
+markovian_mi003,DRESSLER,0.0
+markovian_mi003,ZSN,0.0
+markovian_mi003,REC_IM,0.0029411764705883
+markovian_mi003,P_IM_STEN,0.0
+markovian_full,AGE,0.0088235294117647
+markovian_full,SEX,0.0029411764705883
+markovian_full,INF_ANAM,0.0
+markovian_full,STENOK_AN,0.0
+markovian_full,FK_STENOK,0.0029411764705883
+markovian_full,IBS_POST,0.0
+markovian_full,GB,0.0029411764705883
+markovian_full,SIM_GIPERT,0.0
+markovian_full,DLIT_AG,0.0
+markovian_full,ZSN_A,0.0029411764705883
+markovian_full,nr_11,0.0029411764705883
+markovian_full,nr_01,0.0
+markovian_full,nr_02,0.0
+markovian_full,nr_03,0.0
+markovian_full,nr_04,0.0
+markovian_full,nr_07,0.0
+markovian_full,nr_08,0.0
+markovian_full,np_01,0.0
+markovian_full,np_04,0.0
+markovian_full,np_05,0.0
+markovian_full,np_07,0.0
+markovian_full,np_08,0.0029411764705883
+markovian_full,np_09,0.0
+markovian_full,np_10,0.0
+markovian_full,endocr_01,0.0058823529411765
+markovian_full,endocr_02,0.0
+markovian_full,endocr_03,0.0
+markovian_full,zab_leg_01,0.0029411764705883
+markovian_full,zab_leg_02,0.0
+markovian_full,zab_leg_03,-0.0029411764705882
+markovian_full,zab_leg_04,0.0
+markovian_full,zab_leg_06,0.0
+markovian_full,S_AD_ORIT,-0.0029411764705882
+markovian_full,D_AD_ORIT,0.0
+markovian_full,O_L_POST,0.0
+markovian_full,K_SH_POST,-0.0029411764705882
+markovian_full,MP_TP_POST,0.0
+markovian_full,SVT_POST,0.0
+markovian_full,GT_POST,0.0
+markovian_full,FIB_G_POST,0.0
+markovian_full,ant_im,0.0
+markovian_full,lat_im,0.0
+markovian_full,inf_im,0.0
+markovian_full,post_im,0.0058823529411765
+markovian_full,IM_PG_P,0.0
+markovian_full,ritm_ecg_p_01,0.0029411764705883
+markovian_full,ritm_ecg_p_02,0.0
+markovian_full,ritm_ecg_p_04,0.0
+markovian_full,ritm_ecg_p_06,0.0
+markovian_full,ritm_ecg_p_07,0.0058823529411765
+markovian_full,ritm_ecg_p_08,0.0
+markovian_full,n_r_ecg_p_01,0.0
+markovian_full,n_r_ecg_p_02,0.0
+markovian_full,n_r_ecg_p_03,0.0
+markovian_full,n_r_ecg_p_04,0.0
+markovian_full,n_r_ecg_p_05,0.0
+markovian_full,n_r_ecg_p_06,0.0
+markovian_full,n_r_ecg_p_08,0.0
+markovian_full,n_r_ecg_p_09,0.0
+markovian_full,n_r_ecg_p_10,0.0
+markovian_full,n_p_ecg_p_01,0.0
+markovian_full,n_p_ecg_p_03,0.0
+markovian_full,n_p_ecg_p_04,0.0058823529411765
+markovian_full,n_p_ecg_p_05,0.0
+markovian_full,n_p_ecg_p_06,0.0
+markovian_full,n_p_ecg_p_07,0.0
+markovian_full,n_p_ecg_p_08,0.0
+markovian_full,n_p_ecg_p_09,0.0
+markovian_full,n_p_ecg_p_10,0.0029411764705883
+markovian_full,n_p_ecg_p_11,0.0
+markovian_full,n_p_ecg_p_12,0.0029411764705883
+markovian_full,fibr_ter_01,0.0
+markovian_full,fibr_ter_02,0.0
+markovian_full,fibr_ter_03,0.0
+markovian_full,fibr_ter_05,0.0
+markovian_full,fibr_ter_06,0.0
+markovian_full,fibr_ter_07,0.0
+markovian_full,fibr_ter_08,0.0
+markovian_full,ALT_BLOOD,0.0029411764705883
+markovian_full,AST_BLOOD,0.0
+markovian_full,L_BLOOD,0.0
+markovian_full,ROE,0.0
+markovian_full,TIME_B_S,0.0
+markovian_full,R_AB_1_n,0.0
+markovian_full,R_AB_2_n,0.0
+markovian_full,R_AB_3_n,0.0058823529411765
+markovian_full,NITR_S,0.0029411764705883
+markovian_full,NA_R_1_n,0.0029411764705883
+markovian_full,NA_R_2_n,0.0
+markovian_full,NA_R_3_n,0.0
+markovian_full,NOT_NA_1_n,0.0
+markovian_full,NOT_NA_2_n,0.0
+markovian_full,NOT_NA_3_n,0.0029411764705883
+markovian_full,LID_S_n,0.0029411764705883
+markovian_full,B_BLOK_S_n,0.0
+markovian_full,ANT_CA_S_n,0.0
+markovian_full,GEPAR_S_n,0.0
+markovian_full,ASP_S_n,0.0029411764705883
+markovian_full,TIKL_S_n,0.0029411764705883
+markovian_full,TRENT_S_n,0.0
+markovian_full,FIBR_PREDS,0.0
+markovian_full,PREDS_TAH,0.0
+markovian_full,JELUD_TAH,0.0
+markovian_full,FIBR_JELUD,0.0
+markovian_full,A_V_BLOK,0.0029411764705883
+markovian_full,OTEK_LANC,0.0029411764705883
+markovian_full,RAZRIV,0.0205882352941176
+markovian_full,DRESSLER,0.0
+markovian_full,ZSN,0.0
+markovian_full,REC_IM,0.0029411764705883
+markovian_full,P_IM_STEN,0.0
+kernel_shap,AGE,0.0074366956154849
+kernel_shap,SEX,0.0
+kernel_shap,INF_ANAM,8.32704948223042e-05
+kernel_shap,STENOK_AN,0.0009971466347679
+kernel_shap,FK_STENOK,0.0
+kernel_shap,IBS_POST,0.0074467485364403
+kernel_shap,GB,0.0
+kernel_shap,SIM_GIPERT,0.0
+kernel_shap,DLIT_AG,0.0010371337844989
+kernel_shap,ZSN_A,0.0227916785730847
+kernel_shap,nr_11,0.000538989696465
+kernel_shap,nr_01,0.0
+kernel_shap,nr_02,0.0
+kernel_shap,nr_03,0.0
+kernel_shap,nr_04,0.0
+kernel_shap,nr_07,0.0
+kernel_shap,nr_08,0.0
+kernel_shap,np_01,0.0
+kernel_shap,np_04,0.0
+kernel_shap,np_05,0.0
+kernel_shap,np_07,0.0
+kernel_shap,np_08,0.0
+kernel_shap,np_09,0.0
+kernel_shap,np_10,0.0
+kernel_shap,endocr_01,0.0002831464626233
+kernel_shap,endocr_02,0.0
+kernel_shap,endocr_03,0.0
+kernel_shap,zab_leg_01,0.0
+kernel_shap,zab_leg_02,0.0007151109715657
+kernel_shap,zab_leg_03,0.0006058012550387
+kernel_shap,zab_leg_04,0.0
+kernel_shap,zab_leg_06,0.0
+kernel_shap,S_AD_ORIT,0.0048982945497023
+kernel_shap,D_AD_ORIT,0.0014280122368921
+kernel_shap,O_L_POST,0.0002859186197677
+kernel_shap,K_SH_POST,0.0019349513262715
+kernel_shap,MP_TP_POST,0.0
+kernel_shap,SVT_POST,0.0
+kernel_shap,GT_POST,0.0
+kernel_shap,FIB_G_POST,0.0
+kernel_shap,ant_im,0.0064230756672589
+kernel_shap,lat_im,0.0004683514763819
+kernel_shap,inf_im,0.0013073720819043
+kernel_shap,post_im,0.0003619100494154
+kernel_shap,IM_PG_P,0.000566449671233
+kernel_shap,ritm_ecg_p_01,0.0024565558193031
+kernel_shap,ritm_ecg_p_02,0.0
+kernel_shap,ritm_ecg_p_04,0.0
+kernel_shap,ritm_ecg_p_06,8.612731385273643e-05
+kernel_shap,ritm_ecg_p_07,0.0
+kernel_shap,ritm_ecg_p_08,0.0002458194520441
+kernel_shap,n_r_ecg_p_01,0.0
+kernel_shap,n_r_ecg_p_02,0.0
+kernel_shap,n_r_ecg_p_03,0.0
+kernel_shap,n_r_ecg_p_04,0.0
+kernel_shap,n_r_ecg_p_05,5.2458029025750605e-05
+kernel_shap,n_r_ecg_p_06,0.0
+kernel_shap,n_r_ecg_p_08,0.0
+kernel_shap,n_r_ecg_p_09,0.0
+kernel_shap,n_r_ecg_p_10,0.0
+kernel_shap,n_p_ecg_p_01,0.0
+kernel_shap,n_p_ecg_p_03,0.0
+kernel_shap,n_p_ecg_p_04,0.0001124635488339
+kernel_shap,n_p_ecg_p_05,0.0
+kernel_shap,n_p_ecg_p_06,8.627673954633374e-05
+kernel_shap,n_p_ecg_p_07,0.0
+kernel_shap,n_p_ecg_p_08,0.0
+kernel_shap,n_p_ecg_p_09,0.0
+kernel_shap,n_p_ecg_p_10,0.0
+kernel_shap,n_p_ecg_p_11,0.0
+kernel_shap,n_p_ecg_p_12,0.0012169825670472
+kernel_shap,fibr_ter_01,0.0
+kernel_shap,fibr_ter_02,0.0
+kernel_shap,fibr_ter_03,0.0
+kernel_shap,fibr_ter_05,0.0
+kernel_shap,fibr_ter_06,0.0
+kernel_shap,fibr_ter_07,0.0
+kernel_shap,fibr_ter_08,1.3961185544902888e-05
+kernel_shap,ALT_BLOOD,0.0005117239164179
+kernel_shap,AST_BLOOD,0.000600535467605
+kernel_shap,L_BLOOD,0.0116927453699209
+kernel_shap,ROE,0.0053313858810097
+kernel_shap,TIME_B_S,0.003373184800719
+kernel_shap,R_AB_1_n,0.0
+kernel_shap,R_AB_2_n,0.0002870980011698
+kernel_shap,R_AB_3_n,0.0672555745567656
+kernel_shap,NITR_S,0.0012679593240702
+kernel_shap,NA_R_1_n,6.865382303031825e-05
+kernel_shap,NA_R_2_n,0.0012823157744069
+kernel_shap,NA_R_3_n,0.010926670556991
+kernel_shap,NOT_NA_1_n,0.0
+kernel_shap,NOT_NA_2_n,0.001298848770409
+kernel_shap,NOT_NA_3_n,0.0163051996654461
+kernel_shap,LID_S_n,0.0001675213830781
+kernel_shap,B_BLOK_S_n,0.0013932367201002
+kernel_shap,ANT_CA_S_n,0.0
+kernel_shap,GEPAR_S_n,0.0
+kernel_shap,ASP_S_n,0.0006787039810595
+kernel_shap,TIKL_S_n,0.0
+kernel_shap,TRENT_S_n,0.0
+kernel_shap,FIBR_PREDS,0.0
+kernel_shap,PREDS_TAH,0.0
+kernel_shap,JELUD_TAH,0.0
+kernel_shap,FIBR_JELUD,0.000350975042413
+kernel_shap,A_V_BLOK,0.0002320898592004
+kernel_shap,OTEK_LANC,0.0
+kernel_shap,RAZRIV,0.0274751277423812
+kernel_shap,DRESSLER,0.0
+kernel_shap,ZSN,0.0022576362688492
+kernel_shap,REC_IM,0.0037324897963149
+kernel_shap,P_IM_STEN,0.0057770607259396
+sampling_shap,AGE,0.0093041798834845
+sampling_shap,SEX,0.0004221652441792
+sampling_shap,INF_ANAM,0.001789745699008
+sampling_shap,STENOK_AN,0.003822707490733
+sampling_shap,FK_STENOK,0.0005013821717016
+sampling_shap,IBS_POST,0.0092421631828192
+sampling_shap,GB,0.0004601331285377
+sampling_shap,SIM_GIPERT,0.0
+sampling_shap,DLIT_AG,0.0030335712956235
+sampling_shap,ZSN_A,0.0219545256061101
+sampling_shap,nr_11,0.0007216011409553
+sampling_shap,nr_01,0.0
+sampling_shap,nr_02,0.0
+sampling_shap,nr_03,1.6734824583327115e-05
+sampling_shap,nr_04,0.0004297279089277
+sampling_shap,nr_07,0.0
+sampling_shap,nr_08,0.0
+sampling_shap,np_01,0.0
+sampling_shap,np_04,0.0
+sampling_shap,np_05,0.0
+sampling_shap,np_07,0.0
+sampling_shap,np_08,5.089298524998073e-05
+sampling_shap,np_09,0.0
+sampling_shap,np_10,0.0
+sampling_shap,endocr_01,0.0012529720611858
+sampling_shap,endocr_02,0.0
+sampling_shap,endocr_03,0.0
+sampling_shap,zab_leg_01,0.0002247563690388
+sampling_shap,zab_leg_02,0.0015097671376258
+sampling_shap,zab_leg_03,0.0018791555996497
+sampling_shap,zab_leg_04,0.0
+sampling_shap,zab_leg_06,0.0
+sampling_shap,S_AD_ORIT,0.0059539164316605
+sampling_shap,D_AD_ORIT,0.0028175343819757
+sampling_shap,O_L_POST,9.056885914687252e-05
+sampling_shap,K_SH_POST,0.0028228055983212
+sampling_shap,MP_TP_POST,0.0001726913109208
+sampling_shap,SVT_POST,0.0
+sampling_shap,GT_POST,0.0
+sampling_shap,FIB_G_POST,0.0
+sampling_shap,ant_im,0.0083401891223129
+sampling_shap,lat_im,0.0019924886090234
+sampling_shap,inf_im,0.0038366164603869
+sampling_shap,post_im,0.001971503353721
+sampling_shap,IM_PG_P,0.0017594284270839
+sampling_shap,ritm_ecg_p_01,0.0045279876152091
+sampling_shap,ritm_ecg_p_02,0.0006155142847637
+sampling_shap,ritm_ecg_p_04,0.0001584052738472
+sampling_shap,ritm_ecg_p_06,0.0005043648190389
+sampling_shap,ritm_ecg_p_07,0.0005064309148951
+sampling_shap,ritm_ecg_p_08,0.0008392793197225
+sampling_shap,n_r_ecg_p_01,0.000118467441366
+sampling_shap,n_r_ecg_p_02,0.0
+sampling_shap,n_r_ecg_p_03,0.0003407573250395
+sampling_shap,n_r_ecg_p_04,0.0003414236509792
+sampling_shap,n_r_ecg_p_05,9.131287248760496e-05
+sampling_shap,n_r_ecg_p_06,5.983720444027534e-05
+sampling_shap,n_r_ecg_p_08,6.657075376740836e-05
+sampling_shap,n_r_ecg_p_09,0.0
+sampling_shap,n_r_ecg_p_10,7.4854648947414e-05
+sampling_shap,n_p_ecg_p_01,0.0
+sampling_shap,n_p_ecg_p_03,6.26442761794683e-05
+sampling_shap,n_p_ecg_p_04,0.0004634244349847
+sampling_shap,n_p_ecg_p_05,0.0
+sampling_shap,n_p_ecg_p_06,3.062480707586085e-05
+sampling_shap,n_p_ecg_p_07,0.0001637555931873
+sampling_shap,n_p_ecg_p_08,0.0
+sampling_shap,n_p_ecg_p_09,0.0
+sampling_shap,n_p_ecg_p_10,8.602835975543746e-05
+sampling_shap,n_p_ecg_p_11,0.0
+sampling_shap,n_p_ecg_p_12,0.0034277784082899
+sampling_shap,fibr_ter_01,0.0
+sampling_shap,fibr_ter_02,0.0
+sampling_shap,fibr_ter_03,0.0
+sampling_shap,fibr_ter_05,0.0
+sampling_shap,fibr_ter_06,0.0
+sampling_shap,fibr_ter_07,0.0
+sampling_shap,fibr_ter_08,0.0
+sampling_shap,ALT_BLOOD,0.0023937403127047
+sampling_shap,AST_BLOOD,0.002042302283575
+sampling_shap,L_BLOOD,0.0133411825950307
+sampling_shap,ROE,0.006692350889737
+sampling_shap,TIME_B_S,0.0048978868851683
+sampling_shap,R_AB_1_n,0.0002898193143886
+sampling_shap,R_AB_2_n,0.0017617630813076
+sampling_shap,R_AB_3_n,0.0669922366434113
+sampling_shap,NITR_S,0.003117156897676
+sampling_shap,NA_R_1_n,0.0014081084895089
+sampling_shap,NA_R_2_n,0.0027338256379291
+sampling_shap,NA_R_3_n,0.0099144137618149
+sampling_shap,NOT_NA_1_n,0.0006152430326839
+sampling_shap,NOT_NA_2_n,0.0030887226337409
+sampling_shap,NOT_NA_3_n,0.0154697457248035
+sampling_shap,LID_S_n,0.0008571220959228
+sampling_shap,B_BLOK_S_n,0.0020150691751947
+sampling_shap,ANT_CA_S_n,0.0009055645509381
+sampling_shap,GEPAR_S_n,0.0005792965387471
+sampling_shap,ASP_S_n,0.0025705144535815
+sampling_shap,TIKL_S_n,8.312951055423788e-05
+sampling_shap,TRENT_S_n,0.0002004878726764
+sampling_shap,FIBR_PREDS,0.0004197777442222
+sampling_shap,PREDS_TAH,0.0
+sampling_shap,JELUD_TAH,8.009194780924537e-05
+sampling_shap,FIBR_JELUD,0.0014008624885254
+sampling_shap,A_V_BLOK,1.4319360806949266e-06
+sampling_shap,OTEK_LANC,0.0002281537489349
+sampling_shap,RAZRIV,0.0257845314090158
+sampling_shap,DRESSLER,0.0
+sampling_shap,ZSN,0.0038181328851695
+sampling_shap,REC_IM,0.0064508456879392
+sampling_shap,P_IM_STEN,0.006003002927418
+leverage_shap,S_AD_ORIT,-0.0020943070309379
+leverage_shap,D_AD_ORIT,0.0270733275706158
+leverage_shap,AGE,-0.0005992921575944
+leverage_shap,L_BLOOD,0.0033259235692292
+leverage_shap,GB,0.0126075606580533
+leverage_shap,DLIT_AG,0.0142718433111987
+leverage_shap,STENOK_AN,0.0095822818644745
+leverage_shap,FK_STENOK,0.0211546036090386
+leverage_shap,ASP_S_n,-0.0071886736335901
+leverage_shap,TIME_B_S,-0.0230149748340893
+leverage_shap,ALT_BLOOD,-0.0151114246642745
+leverage_shap,AST_BLOOD,0.0243217724756686
+leverage_shap,GEPAR_S_n,0.0173923961887158
+leverage_shap,IBS_POST,0.0260810880394818
+leverage_shap,ANT_CA_S_n,-0.0187884762510058
+leverage_shap,ritm_ecg_p_01,-0.0076114495651362
+leverage_shap,MP_TP_POST,0.0010632556529124
+leverage_shap,ritm_ecg_p_02,-0.0112622913864969
+leverage_shap,ROE,0.0356188634737466
+leverage_shap,ant_im,0.0166563081437177
+leverage_shap,lat_im,0.0092416786433165
+leverage_shap,SEX,-0.0035863343466594
+leverage_shap,ritm_ecg_p_04,-0.0150899646952578
+leverage_shap,n_p_ecg_p_06,-0.0088763177203102
+leverage_shap,nr_04,-0.0012036693351586
+leverage_shap,n_r_ecg_p_06,0.026883545271527
+leverage_shap,R_AB_1_n,-0.0171946683200748
+leverage_shap,NA_R_1_n,-0.0081716222093918
+leverage_shap,n_r_ecg_p_05,-0.0126765019818988
+leverage_shap,R_AB_2_n,0.0280100683607401
+leverage_shap,NA_R_2_n,0.0289640497396624
+leverage_shap,R_AB_3_n,0.0300749516138595
+leverage_shap,NA_R_3_n,0.0261479452772717
+leverage_shap,INF_ANAM,0.0210844474350837
+leverage_shap,inf_im,0.0238459229495614
+leverage_shap,NOT_NA_2_n,0.0294501374643112
+leverage_shap,NOT_NA_3_n,0.0342569905687322
+leverage_shap,SVT_POST,0.0105604864551143
+leverage_shap,n_r_ecg_p_08,0.0057313999100095
+leverage_shap,LID_S_n,0.0119267254917425
+leverage_shap,ZSN,-0.0062362546548616
+leverage_shap,ritm_ecg_p_07,0.041616306437517
+leverage_shap,NOT_NA_1_n,0.0290955999590238
+leverage_shap,post_im,0.0008899503596632
+leverage_shap,TRENT_S_n,0.0341483076715449
+leverage_shap,NITR_S,0.0008830472349079
+leverage_shap,OTEK_LANC,0.0207809565977096
+leverage_shap,endocr_01,0.0004308582611045
+leverage_shap,B_BLOK_S_n,-0.0118353687593746
+leverage_shap,n_r_ecg_p_03,-0.0329361344254103
+leverage_shap,O_L_POST,-0.0045975718940284
+leverage_shap,FIBR_PREDS,0.0346388439129723
+leverage_shap,REC_IM,-0.009575190248861
+leverage_shap,ZSN_A,0.0252443690977702
+leverage_shap,nr_07,0.0114030286798697
+leverage_shap,np_05,0.0168937229694486
+leverage_shap,P_IM_STEN,0.0143525665864997
+leverage_shap,nr_08,0.0060331310341118
+leverage_shap,np_04,0.0159967238267356
+leverage_shap,FIBR_JELUD,-0.0076901171046467
+leverage_shap,zab_leg_01,0.0038674704112866
+leverage_shap,np_08,0.0083875824353012
+leverage_shap,n_p_ecg_p_10,0.0247849401175438
+leverage_shap,zab_leg_02,0.029717831172445
+leverage_shap,n_p_ecg_p_07,-0.0199344641188548
+leverage_shap,A_V_BLOK,-0.0127072475146374
+leverage_shap,n_r_ecg_p_04,0.0403517527450005
+leverage_shap,GT_POST,-0.0124930399353842
+leverage_shap,n_r_ecg_p_09,0.0494806916000481
+leverage_shap,PREDS_TAH,0.0185254524163345
+leverage_shap,n_p_ecg_p_12,0.0057280516684839
+leverage_shap,nr_03,0.0574886228117062
+leverage_shap,fibr_ter_03,-0.0075992397900911
+leverage_shap,SIM_GIPERT,0.0117370507193545
+leverage_shap,IM_PG_P,-0.0040239734834234
+leverage_shap,n_r_ecg_p_01,0.0290303274577458
+leverage_shap,DRESSLER,0.0220183704481722
+leverage_shap,RAZRIV,0.0197763746849785
+leverage_shap,ritm_ecg_p_06,0.0268251410367204
+leverage_shap,nr_01,0.0124981338537888
+leverage_shap,n_p_ecg_p_08,0.0030507365832831
+leverage_shap,K_SH_POST,0.0037882667875174
+leverage_shap,ritm_ecg_p_08,0.0322904978457169
+leverage_shap,endocr_02,-0.0082474388309034
+leverage_shap,JELUD_TAH,-0.0163662743839434
+leverage_shap,nr_11,0.0178866882463589
+leverage_shap,np_07,0.0026393988104518
+leverage_shap,n_r_ecg_p_10,0.0143881578231653
+leverage_shap,zab_leg_04,-0.0188598888765166
+leverage_shap,n_p_ecg_p_11,0.0004887488075911
+leverage_shap,nr_02,0.0097666548397075
+leverage_shap,np_01,0.0337626299896435
+leverage_shap,np_09,-0.0259773447389964
+leverage_shap,fibr_ter_06,-0.0079788951724943
+leverage_shap,zab_leg_03,-0.0055476602045231
+leverage_shap,n_p_ecg_p_03,0.0005535963801405
+leverage_shap,n_p_ecg_p_04,-0.0050009657995484
+leverage_shap,np_10,-0.0222945026773793
+leverage_shap,FIB_G_POST,0.0334937210630209
+leverage_shap,fibr_ter_01,0.0343271650924615
+leverage_shap,TIKL_S_n,-0.0103880631148826
+leverage_shap,n_r_ecg_p_02,0.0342342533216582
+leverage_shap,fibr_ter_02,-0.0416714004498527
+leverage_shap,fibr_ter_05,0.0021133705043618
+leverage_shap,zab_leg_06,0.0167259446320398
+leverage_shap,endocr_03,-0.0197160701863933
+leverage_shap,n_p_ecg_p_01,0.0161254294076715
+leverage_shap,n_p_ecg_p_05,0.0226827228603865
+leverage_shap,n_p_ecg_p_09,0.0108632654161643
+leverage_shap,fibr_ter_07,0.0267711937290839
+leverage_shap,fibr_ter_08,-0.0068169711185282
+shapg | rank_deletion_cosine,S_AD_ORIT,0.45
+shapg | rank_deletion_cosine,D_AD_ORIT,0.4470588235294118
+shapg | rank_deletion_cosine,AGE,0.4235294117647059
+shapg | rank_deletion_cosine,L_BLOOD,0.4029411764705882
+shapg | rank_deletion_cosine,GB,0.425
+shapg | rank_deletion_cosine,DLIT_AG,0.4235294117647059
+shapg | rank_deletion_cosine,STENOK_AN,0.4235294117647059
+shapg | rank_deletion_cosine,FK_STENOK,0.4235294117647059
+shapg | rank_deletion_cosine,ASP_S_n,0.4235294117647059
+shapg | rank_deletion_cosine,TIME_B_S,0.4235294117647059
+shapg | rank_deletion_cosine,ALT_BLOOD,0.4235294117647059
+shapg | rank_deletion_cosine,AST_BLOOD,0.4235294117647059
+shapg | rank_deletion_cosine,GEPAR_S_n,0.4235294117647059
+shapg | rank_deletion_cosine,IBS_POST,0.4382352941176471
+shapg | rank_deletion_cosine,ANT_CA_S_n,0.4235294117647059
+shapg | rank_deletion_cosine,ritm_ecg_p_01,0.4235294117647059
+shapg | rank_deletion_cosine,MP_TP_POST,0.4235294117647059
+shapg | rank_deletion_cosine,ritm_ecg_p_02,0.4235294117647059
+shapg | rank_deletion_cosine,ROE,0.4235294117647059
+shapg | rank_deletion_cosine,ant_im,0.4294117647058823
+shapg | rank_deletion_cosine,lat_im,0.4294117647058823
+shapg | rank_deletion_cosine,SEX,0.4235294117647059
+shapg | rank_deletion_cosine,ritm_ecg_p_04,0.4235294117647059
+shapg | rank_deletion_cosine,n_p_ecg_p_06,0.4235294117647059
+shapg | rank_deletion_cosine,nr_04,0.4264705882352941
+shapg | rank_deletion_cosine,n_r_ecg_p_06,0.4235294117647059
+shapg | rank_deletion_cosine,R_AB_1_n,0.43235294117647055
+shapg | rank_deletion_cosine,NA_R_1_n,0.4235294117647059
+shapg | rank_deletion_cosine,n_r_ecg_p_05,0.4235294117647059
+shapg | rank_deletion_cosine,R_AB_2_n,0.4735294117647059
+shapg | rank_deletion_cosine,NA_R_2_n,0.4705882352941177
+shapg | rank_deletion_cosine,R_AB_3_n,0.4941176470588235
+shapg | rank_deletion_cosine,NA_R_3_n,0.48823529411764705
+shapg | rank_deletion_cosine,INF_ANAM,0.4235294117647059
+shapg | rank_deletion_cosine,inf_im,0.4235294117647059
+shapg | rank_deletion_cosine,NOT_NA_2_n,0.4705882352941177
+shapg | rank_deletion_cosine,NOT_NA_3_n,0.49117647058823527
+shapg | rank_deletion_cosine,SVT_POST,0.10588235294117647
+shapg | rank_deletion_cosine,n_r_ecg_p_08,0.4235294117647059
+shapg | rank_deletion_cosine,LID_S_n,0.4235294117647059
+shapg | rank_deletion_cosine,ZSN,0.4235294117647059
+shapg | rank_deletion_cosine,ritm_ecg_p_07,0.4235294117647059
+shapg | rank_deletion_cosine,NOT_NA_1_n,0.4235294117647059
+shapg | rank_deletion_cosine,post_im,0.4235294117647059
+shapg | rank_deletion_cosine,TRENT_S_n,0.4235294117647059
+shapg | rank_deletion_cosine,NITR_S,0.4235294117647059
+shapg | rank_deletion_cosine,OTEK_LANC,0.4235294117647059
+shapg | rank_deletion_cosine,endocr_01,0.4235294117647059
+shapg | rank_deletion_cosine,B_BLOK_S_n,0.4235294117647059
+shapg | rank_deletion_cosine,n_r_ecg_p_03,0.4235294117647059
+shapg | rank_deletion_cosine,O_L_POST,0.4235294117647059
+shapg | rank_deletion_cosine,FIBR_PREDS,0.4235294117647059
+shapg | rank_deletion_cosine,REC_IM,0.4235294117647059
+shapg | rank_deletion_cosine,ZSN_A,0.45
+shapg | rank_deletion_cosine,nr_07,0.10588235294117651
+shapg | rank_deletion_cosine,np_05,0.4294117647058823
+shapg | rank_deletion_cosine,P_IM_STEN,0.10588235294117652
+shapg | rank_deletion_cosine,nr_08,0.43235294117647055
+shapg | rank_deletion_cosine,np_04,0.4235294117647059
+shapg | rank_deletion_cosine,FIBR_JELUD,0.4235294117647059
+shapg | rank_deletion_cosine,zab_leg_01,0.4235294117647059
+shapg | rank_deletion_cosine,np_08,0.4294117647058823
+shapg | rank_deletion_cosine,n_p_ecg_p_10,0.4235294117647059
+shapg | rank_deletion_cosine,zab_leg_02,0.4235294117647059
+shapg | rank_deletion_cosine,n_p_ecg_p_07,0.4235294117647059
+shapg | rank_deletion_cosine,A_V_BLOK,0.21176470588235294
+shapg | rank_deletion_cosine,n_r_ecg_p_04,0.4235294117647059
+shapg | rank_deletion_cosine,GT_POST,0.21176470588235294
+shapg | rank_deletion_cosine,n_r_ecg_p_09,0.10588235294117648
+shapg | rank_deletion_cosine,PREDS_TAH,0.10588235294117647
+shapg | rank_deletion_cosine,n_p_ecg_p_12,0.4235294117647059
+shapg | rank_deletion_cosine,nr_03,0.43235294117647055
+shapg | rank_deletion_cosine,fibr_ter_03,0.4235294117647059
+shapg | rank_deletion_cosine,SIM_GIPERT,0.21323529411764705
+shapg | rank_deletion_cosine,IM_PG_P,0.4058823529411765
+shapg | rank_deletion_cosine,n_r_ecg_p_01,0.4235294117647059
+shapg | rank_deletion_cosine,DRESSLER,0.10588235294117646
+shapg | rank_deletion_cosine,RAZRIV,0.45588235294117646
+shapg | rank_deletion_cosine,ritm_ecg_p_06,0.10666560102301793
+shapg | rank_deletion_cosine,nr_01,0.21176470588235294
+shapg | rank_deletion_cosine,n_p_ecg_p_08,0.4235294117647059
+shapg | rank_deletion_cosine,K_SH_POST,0.45588235294117646
+shapg | rank_deletion_cosine,ritm_ecg_p_08,0.4235294117647059
+shapg | rank_deletion_cosine,endocr_02,0.4235294117647059
+shapg | rank_deletion_cosine,JELUD_TAH,0.21176470588235294
+shapg | rank_deletion_cosine,nr_11,0.11470588235294077
+shapg | rank_deletion_cosine,np_07,0.10588235294117652
+shapg | rank_deletion_cosine,n_r_ecg_p_10,0.10588235294117648
+shapg | rank_deletion_cosine,zab_leg_04,0.4235294117647059
+shapg | rank_deletion_cosine,n_p_ecg_p_11,0.4235294117647059
+shapg | rank_deletion_cosine,nr_02,0.43235294117647055
+shapg | rank_deletion_cosine,np_01,0.4235294117647059
+shapg | rank_deletion_cosine,np_09,0.10588235294117648
+shapg | rank_deletion_cosine,fibr_ter_06,0.4235294117647059
+shapg | rank_deletion_cosine,zab_leg_03,0.4235294117647059
+shapg | rank_deletion_cosine,n_p_ecg_p_03,0.4235294117647059
+shapg | rank_deletion_cosine,n_p_ecg_p_04,0.4235294117647059
+shapg | rank_deletion_cosine,np_10,0.4235294117647059
+shapg | rank_deletion_cosine,FIB_G_POST,0.21176470588235294
+shapg | rank_deletion_cosine,fibr_ter_01,0.4235294117647059
+shapg | rank_deletion_cosine,TIKL_S_n,0.21176470588235294
+shapg | rank_deletion_cosine,n_r_ecg_p_02,0.4235294117647059
+shapg | rank_deletion_cosine,fibr_ter_02,0.4235294117647059
+shapg | rank_deletion_cosine,fibr_ter_05,0.10588235294117651
+shapg | rank_deletion_cosine,zab_leg_06,0.10588235294117648
+shapg | rank_deletion_cosine,endocr_03,0.1058823529411765
+shapg | rank_deletion_cosine,n_p_ecg_p_01,0.10586072664359863
+shapg | rank_deletion_cosine,n_p_ecg_p_05,0.21176470588235294
+shapg | rank_deletion_cosine,n_p_ecg_p_09,0.21176470588235294
+shapg | rank_deletion_cosine,fibr_ter_07,0.10588235294117646
+shapg | rank_deletion_cosine,fibr_ter_08,0.10588235294117646
+shapg | rank_deletion_mutual_info,n_r_ecg_p_09,0.10588235294117648
+shapg | rank_deletion_mutual_info,n_r_ecg_p_10,0.4235294117647059
+shapg | rank_deletion_mutual_info,n_p_ecg_p_01,0.10588235294117648
+shapg | rank_deletion_mutual_info,n_p_ecg_p_05,0.10441176470588234
+shapg | rank_deletion_mutual_info,n_r_ecg_p_08,0.21176470588235294
+shapg | rank_deletion_mutual_info,n_p_ecg_p_04,0.21176470588235294
+shapg | rank_deletion_mutual_info,n_p_ecg_p_08,0.4235294117647059
+shapg | rank_deletion_mutual_info,n_r_ecg_p_02,0.4235294117647059
+shapg | rank_deletion_mutual_info,n_p_ecg_p_09,0.4235294117647059
+shapg | rank_deletion_mutual_info,np_01,0.21176470588235294
+shapg | rank_deletion_mutual_info,np_07,0.21176470588235294
+shapg | rank_deletion_mutual_info,np_09,0.4235294117647059
+shapg | rank_deletion_mutual_info,ritm_ecg_p_04,0.10504901960784313
+shapg | rank_deletion_mutual_info,ritm_ecg_p_06,0.4235294117647059
+shapg | rank_deletion_mutual_info,np_04,0.4235294117647059
+shapg | rank_deletion_mutual_info,np_10,0.4235294117647059
+shapg | rank_deletion_mutual_info,nr_01,0.4235294117647059
+shapg | rank_deletion_mutual_info,nr_07,0.4235294117647059
+shapg | rank_deletion_mutual_info,nr_08,0.43235294117647055
+shapg | rank_deletion_mutual_info,n_p_ecg_p_06,0.42205882352941176
+shapg | rank_deletion_mutual_info,n_p_ecg_p_11,0.4235294117647059
+shapg | rank_deletion_mutual_info,n_r_ecg_p_06,0.4235294117647059
+shapg | rank_deletion_mutual_info,n_p_ecg_p_03,0.4235294117647059
+shapg | rank_deletion_mutual_info,ritm_ecg_p_08,0.4235294117647059
+shapg | rank_deletion_mutual_info,n_p_ecg_p_10,0.4235294117647059
+shapg | rank_deletion_mutual_info,np_08,0.4294117647058823
+shapg | rank_deletion_mutual_info,n_r_ecg_p_01,0.4235294117647059
+shapg | rank_deletion_mutual_info,n_r_ecg_p_04,0.4235294117647059
+shapg | rank_deletion_mutual_info,fibr_ter_05,0.4235294117647059
+shapg | rank_deletion_mutual_info,fibr_ter_08,0.1058823529411765
+shapg | rank_deletion_mutual_info,ritm_ecg_p_02,0.21176470588235294
+shapg | rank_deletion_mutual_info,n_r_ecg_p_05,0.4235294117647059
+shapg | rank_deletion_mutual_info,np_05,0.4294117647058823
+shapg | rank_deletion_mutual_info,n_p_ecg_p_12,0.4235294117647059
+shapg | rank_deletion_mutual_info,ritm_ecg_p_01,0.42205882352941176
+shapg | rank_deletion_mutual_info,ritm_ecg_p_07,0.4235294117647059
+shapg | rank_deletion_mutual_info,fibr_ter_07,0.4235294117647059
+shapg | rank_deletion_mutual_info,n_p_ecg_p_07,0.4235294117647059
+shapg | rank_deletion_mutual_info,nr_02,0.43235294117647055
+shapg | rank_deletion_mutual_info,fibr_ter_06,0.10588235294117648
+shapg | rank_deletion_mutual_info,R_AB_3_n,0.4941176470588235
+shapg | rank_deletion_mutual_info,NA_R_3_n,0.48823529411764705
+shapg | rank_deletion_mutual_info,nr_04,0.4264705882352941
+shapg | rank_deletion_mutual_info,SVT_POST,0.10588235294117648
+shapg | rank_deletion_mutual_info,GT_POST,0.10588235294117648
+shapg | rank_deletion_mutual_info,n_r_ecg_p_03,0.21176470588235294
+shapg | rank_deletion_mutual_info,fibr_ter_01,0.10588235294117648
+shapg | rank_deletion_mutual_info,nr_03,0.43235294117647055
+shapg | rank_deletion_mutual_info,NOT_NA_3_n,0.49117647058823527
+shapg | rank_deletion_mutual_info,fibr_ter_02,0.4235294117647059
+shapg | rank_deletion_mutual_info,R_AB_2_n,0.4735294117647059
+shapg | rank_deletion_mutual_info,NA_R_2_n,0.4705882352941177
+shapg | rank_deletion_mutual_info,STENOK_AN,0.42205882352941176
+shapg | rank_deletion_mutual_info,FK_STENOK,0.4235294117647059
+shapg | rank_deletion_mutual_info,nr_11,0.43235294117647055
+shapg | rank_deletion_mutual_info,FIB_G_POST,0.4235294117647059
+shapg | rank_deletion_mutual_info,S_AD_ORIT,0.45
+shapg | rank_deletion_mutual_info,D_AD_ORIT,0.45
+shapg | rank_deletion_mutual_info,NOT_NA_2_n,0.4705882352941177
+shapg | rank_deletion_mutual_info,GB,0.4235294117647059
+shapg | rank_deletion_mutual_info,DLIT_AG,0.4235294117647059
+shapg | rank_deletion_mutual_info,IBS_POST,0.4382352941176471
+shapg | rank_deletion_mutual_info,ant_im,0.4235294117647059
+shapg | rank_deletion_mutual_info,inf_im,0.4235294117647059
+shapg | rank_deletion_mutual_info,MP_TP_POST,0.1057309688581315
+shapg | rank_deletion_mutual_info,ALT_BLOOD,0.10482843137254902
+shapg | rank_deletion_mutual_info,AST_BLOOD,0.4235294117647059
+shapg | rank_deletion_mutual_info,zab_leg_04,0.4235294117647059
+shapg | rank_deletion_mutual_info,zab_leg_06,0.4235294117647059
+shapg | rank_deletion_mutual_info,K_SH_POST,0.45588235294117646
+shapg | rank_deletion_mutual_info,lat_im,0.4235294117647059
+shapg | rank_deletion_mutual_info,AGE,0.4235294117647059
+shapg | rank_deletion_mutual_info,L_BLOOD,0.4029411764705882
+shapg | rank_deletion_mutual_info,endocr_02,0.21176470588235294
+shapg | rank_deletion_mutual_info,endocr_03,0.4235294117647059
+shapg | rank_deletion_mutual_info,ROE,0.4235294117647059
+shapg | rank_deletion_mutual_info,fibr_ter_03,0.4235294117647059
+shapg | rank_deletion_mutual_info,zab_leg_03,0.4161764705882353
+shapg | rank_deletion_mutual_info,O_L_POST,0.4235294117647059
+shapg | rank_deletion_mutual_info,post_im,0.4294117647058823
+shapg | rank_deletion_mutual_info,R_AB_1_n,0.43235294117647055
+shapg | rank_deletion_mutual_info,NA_R_1_n,0.4235294117647059
+shapg | rank_deletion_mutual_info,zab_leg_02,0.10588235294117646
+shapg | rank_deletion_mutual_info,TIKL_S_n,0.21176470588235294
+shapg | rank_deletion_mutual_info,TRENT_S_n,0.10588235294117646
+shapg | rank_deletion_mutual_info,zab_leg_01,0.4235294117647059
+shapg | rank_deletion_mutual_info,endocr_01,0.10530185758513923
+shapg | rank_deletion_mutual_info,GEPAR_S_n,0.4235294117647059
+shapg | rank_deletion_mutual_info,ASP_S_n,0.4235294117647059
+shapg | rank_deletion_mutual_info,TIME_B_S,0.4235294117647059
+shapg | rank_deletion_mutual_info,ZSN_A,0.45
+shapg | rank_deletion_mutual_info,B_BLOK_S_n,0.21176470588235294
+shapg | rank_deletion_mutual_info,SIM_GIPERT,0.425
+shapg | rank_deletion_mutual_info,ZSN,0.10487745098039213
+shapg | rank_deletion_mutual_info,NITR_S,0.21176470588235294
+shapg | rank_deletion_mutual_info,OTEK_LANC,0.10588235294117646
+shapg | rank_deletion_mutual_info,ANT_CA_S_n,0.4235294117647059
+shapg | rank_deletion_mutual_info,PREDS_TAH,0.10588235294117652
+shapg | rank_deletion_mutual_info,NOT_NA_1_n,0.4235294117647059
+shapg | rank_deletion_mutual_info,INF_ANAM,0.4235294117647059
+shapg | rank_deletion_mutual_info,LID_S_n,0.21176470588235294
+shapg | rank_deletion_mutual_info,SEX,0.10597426470588234
+shapg | rank_deletion_mutual_info,FIBR_JELUD,0.10500319693094622
+shapg | rank_deletion_mutual_info,RAZRIV,0.45588235294117646
+shapg | rank_deletion_mutual_info,FIBR_PREDS,0.1051470588235294
+shapg | rank_deletion_mutual_info,REC_IM,0.10588235294117646
+shapg | rank_deletion_mutual_info,JELUD_TAH,0.10588235294117646
+shapg | rank_deletion_mutual_info,IM_PG_P,0.40735294117647064
+shapg | rank_deletion_mutual_info,A_V_BLOK,0.10625
+shapg | rank_deletion_mutual_info,DRESSLER,0.1062693498452013
+shapg | rank_deletion_mutual_info,P_IM_STEN,0.4235294117647059

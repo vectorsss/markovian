@@ -1,0 +1,961 @@
+method,node,shapley_value
+markovian_empty,population,0.0
+markovian_empty,householdsize,0.0
+markovian_empty,racepctblack,0.0
+markovian_empty,racePctWhite,0.0
+markovian_empty,racePctAsian,0.0
+markovian_empty,racePctHisp,0.0
+markovian_empty,agePct12t21,0.0
+markovian_empty,agePct12t29,0.0
+markovian_empty,agePct16t24,0.0025438199201387
+markovian_empty,agePct65up,0.0
+markovian_empty,numbUrban,0.0
+markovian_empty,pctUrban,0.0005915868909963
+markovian_empty,medIncome,0.0
+markovian_empty,pctWWage,0.0
+markovian_empty,pctWFarmSelf,0.0
+markovian_empty,pctWInvInc,0.0
+markovian_empty,pctWSocSec,0.0
+markovian_empty,pctWPubAsst,0.0
+markovian_empty,pctWRetire,0.0
+markovian_empty,medFamInc,0.0
+markovian_empty,perCapInc,0.0
+markovian_empty,whitePerCap,0.0
+markovian_empty,blackPerCap,0.0
+markovian_empty,indianPerCap,0.0
+markovian_empty,AsianPerCap,0.0
+markovian_empty,OtherPerCap,0.0
+markovian_empty,HispPerCap,0.0
+markovian_empty,NumUnderPov,0.0
+markovian_empty,PctPopUnderPov,0.0
+markovian_empty,PctLess9thGrade,0.0
+markovian_empty,PctNotHSGrad,0.0
+markovian_empty,PctBSorMore,0.0
+markovian_empty,PctUnemployed,0.0
+markovian_empty,PctEmploy,0.0
+markovian_empty,PctEmplManu,0.0
+markovian_empty,PctEmplProfServ,0.0
+markovian_empty,PctOccupManu,0.0
+markovian_empty,PctOccupMgmtProf,0.0
+markovian_empty,MalePctDivorce,0.0
+markovian_empty,MalePctNevMarr,0.0
+markovian_empty,FemalePctDiv,0.0
+markovian_empty,TotalPctDiv,0.0
+markovian_empty,PersPerFam,0.0
+markovian_empty,PctFam2Par,0.0
+markovian_empty,PctKids2Par,0.0
+markovian_empty,PctYoungKids2Par,0.0
+markovian_empty,PctTeen2Par,0.0
+markovian_empty,PctWorkMomYoungKids,0.0
+markovian_empty,PctWorkMom,0.0
+markovian_empty,NumKidsBornNeverMar,0.0
+markovian_empty,PctKidsBornNeverMar,0.0
+markovian_empty,NumImmig,0.0
+markovian_empty,PctImmigRecent,0.0
+markovian_empty,PctImmigRec5,0.0
+markovian_empty,PctImmigRec8,0.0
+markovian_empty,PctImmigRec10,0.0
+markovian_empty,PctRecentImmig,0.0
+markovian_empty,PctRecImmig5,0.0
+markovian_empty,PctRecImmig8,0.0
+markovian_empty,PctRecImmig10,0.0
+markovian_empty,PctSpeakEnglOnly,0.0
+markovian_empty,PctNotSpeakEnglWell,0.0
+markovian_empty,PctLargHouseFam,0.0
+markovian_empty,PctLargHouseOccup,0.0
+markovian_empty,PersPerOccupHous,0.0
+markovian_empty,PersPerOwnOccHous,0.0
+markovian_empty,PersPerRentOccHous,0.0004556536734373
+markovian_empty,PctPersOwnOccup,0.0
+markovian_empty,PctPersDenseHous,0.0
+markovian_empty,PctHousLess3BR,0.0
+markovian_empty,MedNumBR,0.0005916157059797
+markovian_empty,HousVacant,0.0
+markovian_empty,PctHousOccup,0.0
+markovian_empty,PctHousOwnOcc,0.0
+markovian_empty,PctVacantBoarded,0.0
+markovian_empty,PctVacMore6Mos,0.0
+markovian_empty,MedYrHousBuilt,0.0
+markovian_empty,PctHousNoPhone,0.0
+markovian_empty,PctWOFullPlumb,0.0
+markovian_empty,OwnOccLowQuart,0.0
+markovian_empty,OwnOccMedVal,0.0
+markovian_empty,OwnOccHiQuart,0.0
+markovian_empty,OwnOccQrange,0.0
+markovian_empty,RentLowQ,0.0
+markovian_empty,RentMedian,0.0
+markovian_empty,RentHighQ,0.0
+markovian_empty,RentQrange,0.0
+markovian_empty,MedRent,0.0
+markovian_empty,MedRentPctHousInc,0.0004832025333268
+markovian_empty,MedOwnCostPctInc,0.0
+markovian_empty,MedOwnCostPctIncNoMtg,0.0014902899714259
+markovian_empty,NumInShelters,0.0
+markovian_empty,NumStreet,0.0
+markovian_empty,PctForeignBorn,0.0
+markovian_empty,PctBornSameState,0.0
+markovian_empty,PctSameHouse85,0.0
+markovian_empty,PctSameCity85,0.0
+markovian_empty,PctSameState85,0.0
+markovian_empty,LandArea,0.0
+markovian_empty,PopDens,0.0
+markovian_empty,PctUsePubTrans,0.0
+markovian_empty,LemasPctOfficDrugUn,0.0
+markovian_empty,murders,0.0
+markovian_empty,murdPerPop,0.0
+markovian_empty,rapes,0.0980027347740598
+markovian_empty,rapesPerPop,0.0
+markovian_empty,robberies,0.0
+markovian_empty,robbbPerPop,0.0804734044425561
+markovian_empty,assaults,0.0
+markovian_empty,assaultPerPop,0.800947118883843
+markovian_empty,burglaries,0.0
+markovian_empty,burglPerPop,0.0
+markovian_empty,larcenies,0.0
+markovian_empty,larcPerPop,0.0
+markovian_empty,autoTheft,0.0
+markovian_empty,autoTheftPerPop,0.0
+markovian_empty,arsons,0.0
+markovian_empty,arsonsPerPop,0.0
+markovian_empty,communityName_freq,0.0
+markovian_empty,state_encoded,0.0
+markovian_corr06,population,0.0
+markovian_corr06,householdsize,0.0
+markovian_corr06,racepctblack,0.0
+markovian_corr06,racePctWhite,-0.005683784831641
+markovian_corr06,racePctAsian,0.0
+markovian_corr06,racePctHisp,0.0
+markovian_corr06,agePct12t21,0.0
+markovian_corr06,agePct12t29,0.0
+markovian_corr06,agePct16t24,0.0
+markovian_corr06,agePct65up,0.0
+markovian_corr06,numbUrban,0.0
+markovian_corr06,pctUrban,0.0
+markovian_corr06,medIncome,0.0
+markovian_corr06,pctWWage,0.0
+markovian_corr06,pctWFarmSelf,0.0
+markovian_corr06,pctWInvInc,0.0
+markovian_corr06,pctWSocSec,0.0
+markovian_corr06,pctWPubAsst,0.0
+markovian_corr06,pctWRetire,0.0
+markovian_corr06,medFamInc,0.0
+markovian_corr06,perCapInc,0.0
+markovian_corr06,whitePerCap,0.0
+markovian_corr06,blackPerCap,0.0
+markovian_corr06,indianPerCap,0.0
+markovian_corr06,AsianPerCap,0.0
+markovian_corr06,OtherPerCap,0.0
+markovian_corr06,HispPerCap,0.0
+markovian_corr06,NumUnderPov,0.0
+markovian_corr06,PctPopUnderPov,0.0
+markovian_corr06,PctLess9thGrade,0.0
+markovian_corr06,PctNotHSGrad,0.0
+markovian_corr06,PctBSorMore,0.0
+markovian_corr06,PctUnemployed,0.0
+markovian_corr06,PctEmploy,0.0
+markovian_corr06,PctEmplManu,0.0
+markovian_corr06,PctEmplProfServ,0.0
+markovian_corr06,PctOccupManu,0.0
+markovian_corr06,PctOccupMgmtProf,0.0
+markovian_corr06,MalePctDivorce,0.0
+markovian_corr06,MalePctNevMarr,0.0
+markovian_corr06,FemalePctDiv,0.0
+markovian_corr06,TotalPctDiv,0.0
+markovian_corr06,PersPerFam,0.0
+markovian_corr06,PctFam2Par,-0.0043103509532758
+markovian_corr06,PctKids2Par,-0.0043531843149779
+markovian_corr06,PctYoungKids2Par,0.001344170902393
+markovian_corr06,PctTeen2Par,-0.0124204215844012
+markovian_corr06,PctWorkMomYoungKids,0.0
+markovian_corr06,PctWorkMom,0.0
+markovian_corr06,NumKidsBornNeverMar,0.0
+markovian_corr06,PctKidsBornNeverMar,-0.0061157232883888
+markovian_corr06,NumImmig,0.0
+markovian_corr06,PctImmigRecent,0.0
+markovian_corr06,PctImmigRec5,0.0
+markovian_corr06,PctImmigRec8,0.0
+markovian_corr06,PctImmigRec10,0.0
+markovian_corr06,PctRecentImmig,0.0
+markovian_corr06,PctRecImmig5,0.0
+markovian_corr06,PctRecImmig8,0.0
+markovian_corr06,PctRecImmig10,0.0
+markovian_corr06,PctSpeakEnglOnly,0.0
+markovian_corr06,PctNotSpeakEnglWell,0.0
+markovian_corr06,PctLargHouseFam,0.0
+markovian_corr06,PctLargHouseOccup,0.0
+markovian_corr06,PersPerOccupHous,0.0
+markovian_corr06,PersPerOwnOccHous,0.0
+markovian_corr06,PersPerRentOccHous,0.0
+markovian_corr06,PctPersOwnOccup,0.0
+markovian_corr06,PctPersDenseHous,0.0
+markovian_corr06,PctHousLess3BR,0.0
+markovian_corr06,MedNumBR,0.0
+markovian_corr06,HousVacant,0.0
+markovian_corr06,PctHousOccup,0.0
+markovian_corr06,PctHousOwnOcc,0.0
+markovian_corr06,PctVacantBoarded,0.0
+markovian_corr06,PctVacMore6Mos,0.0
+markovian_corr06,MedYrHousBuilt,0.0
+markovian_corr06,PctHousNoPhone,0.0
+markovian_corr06,PctWOFullPlumb,0.0
+markovian_corr06,OwnOccLowQuart,0.0
+markovian_corr06,OwnOccMedVal,0.0
+markovian_corr06,OwnOccHiQuart,0.0
+markovian_corr06,OwnOccQrange,0.0
+markovian_corr06,RentLowQ,0.0
+markovian_corr06,RentMedian,0.0
+markovian_corr06,RentHighQ,0.0
+markovian_corr06,RentQrange,0.0
+markovian_corr06,MedRent,0.0
+markovian_corr06,MedRentPctHousInc,0.0
+markovian_corr06,MedOwnCostPctInc,0.0
+markovian_corr06,MedOwnCostPctIncNoMtg,0.0
+markovian_corr06,NumInShelters,0.0
+markovian_corr06,NumStreet,0.0
+markovian_corr06,PctForeignBorn,0.0
+markovian_corr06,PctBornSameState,0.0
+markovian_corr06,PctSameHouse85,0.0
+markovian_corr06,PctSameCity85,0.0
+markovian_corr06,PctSameState85,0.0
+markovian_corr06,LandArea,0.0
+markovian_corr06,PopDens,0.0
+markovian_corr06,PctUsePubTrans,0.0
+markovian_corr06,LemasPctOfficDrugUn,0.0
+markovian_corr06,murders,0.0
+markovian_corr06,murdPerPop,-0.0093113502427738
+markovian_corr06,rapes,0.1119519256606953
+markovian_corr06,rapesPerPop,0.0
+markovian_corr06,robberies,0.0
+markovian_corr06,robbbPerPop,0.0218193461211129
+markovian_corr06,assaults,0.0
+markovian_corr06,assaultPerPop,0.2211152614972424
+markovian_corr06,burglaries,0.0
+markovian_corr06,burglPerPop,-0.0022576487408915
+markovian_corr06,larcenies,0.0
+markovian_corr06,larcPerPop,0.0
+markovian_corr06,autoTheft,0.0
+markovian_corr06,autoTheftPerPop,-0.0165959112562947
+markovian_corr06,arsons,0.0
+markovian_corr06,arsonsPerPop,0.0
+markovian_corr06,communityName_freq,0.0
+markovian_corr06,state_encoded,0.0
+markovian_full,population,-0.0003847686349557
+markovian_full,householdsize,-0.0002496364969838
+markovian_full,racepctblack,-0.0009971848770189
+markovian_full,racePctWhite,-0.0018594970588126
+markovian_full,racePctAsian,0.0014221752713449
+markovian_full,racePctHisp,-1.5344913867121335e-05
+markovian_full,agePct12t21,0.0023595418866432
+markovian_full,agePct12t29,-0.0009557810855256
+markovian_full,agePct16t24,-0.0006557731492023
+markovian_full,agePct65up,0.0009860332444159
+markovian_full,numbUrban,-0.0016445485543282
+markovian_full,pctUrban,-0.0001751634473934
+markovian_full,medIncome,7.934537990994528e-05
+markovian_full,pctWWage,-0.0013408341858143
+markovian_full,pctWFarmSelf,0.0001847009448324
+markovian_full,pctWInvInc,-0.0002846553595836
+markovian_full,pctWSocSec,-0.0004762342073892
+markovian_full,pctWPubAsst,-0.0012242131776805
+markovian_full,pctWRetire,0.0001408116017556
+markovian_full,medFamInc,-0.0006147321003693
+markovian_full,perCapInc,-0.0014539818280913
+markovian_full,whitePerCap,0.0046603854323429
+markovian_full,blackPerCap,0.005543262971194
+markovian_full,indianPerCap,-3.490171516218332e-05
+markovian_full,AsianPerCap,-0.0008505553023231
+markovian_full,OtherPerCap,0.0006734412532717
+markovian_full,HispPerCap,0.0009925632583092
+markovian_full,NumUnderPov,0.0024738742063786
+markovian_full,PctPopUnderPov,-0.0008058702643428
+markovian_full,PctLess9thGrade,-0.001850613154681
+markovian_full,PctNotHSGrad,-0.001802504035068
+markovian_full,PctBSorMore,-0.0014328003270723
+markovian_full,PctUnemployed,0.0056891302479108
+markovian_full,PctEmploy,-0.0006732963350585
+markovian_full,PctEmplManu,-0.0005445484712882
+markovian_full,PctEmplProfServ,0.0021623085181415
+markovian_full,PctOccupManu,-0.0015891621228969
+markovian_full,PctOccupMgmtProf,-0.0009021140976614
+markovian_full,MalePctDivorce,0.0013336784298259
+markovian_full,MalePctNevMarr,0.0046564753128609
+markovian_full,FemalePctDiv,0.00421965407397
+markovian_full,TotalPctDiv,-0.0001091865701847
+markovian_full,PersPerFam,-0.0004576578903074
+markovian_full,PctFam2Par,-0.0027352209002533
+markovian_full,PctKids2Par,-0.0008633766838594
+markovian_full,PctYoungKids2Par,-0.0010634430667492
+markovian_full,PctTeen2Par,-0.000954927388466
+markovian_full,PctWorkMomYoungKids,-0.0007039080775604
+markovian_full,PctWorkMom,-0.0011371586829705
+markovian_full,NumKidsBornNeverMar,-0.0021595966306038
+markovian_full,PctKidsBornNeverMar,0.0055641167091872
+markovian_full,NumImmig,-0.0008849268043752
+markovian_full,PctImmigRecent,-0.0006603612942298
+markovian_full,PctImmigRec5,-0.0001191966493981
+markovian_full,PctImmigRec8,0.0108438864688207
+markovian_full,PctImmigRec10,0.0065616024655753
+markovian_full,PctRecentImmig,-0.0010054076976262
+markovian_full,PctRecImmig5,-7.350944336070864e-05
+markovian_full,PctRecImmig8,9.99252729587674e-05
+markovian_full,PctRecImmig10,-9.342083715868645e-05
+markovian_full,PctSpeakEnglOnly,0.0004727574850875
+markovian_full,PctNotSpeakEnglWell,-0.0001081725351915
+markovian_full,PctLargHouseFam,-0.0013014872306073
+markovian_full,PctLargHouseOccup,0.000573036685816
+markovian_full,PersPerOccupHous,-0.0001748569702264
+markovian_full,PersPerOwnOccHous,0.0002418224354751
+markovian_full,PersPerRentOccHous,2.029600773612028e-05
+markovian_full,PctPersOwnOccup,-0.0006613652991072
+markovian_full,PctPersDenseHous,0.0100205783260115
+markovian_full,PctHousLess3BR,0.0066574388957452
+markovian_full,MedNumBR,-7.60924493249382e-05
+markovian_full,HousVacant,0.0022663886011164
+markovian_full,PctHousOccup,-0.0015163821656168
+markovian_full,PctHousOwnOcc,0.0003643105932497
+markovian_full,PctVacantBoarded,0.0007929163378666
+markovian_full,PctVacMore6Mos,-0.0012925861908116
+markovian_full,MedYrHousBuilt,0.0011905002935038
+markovian_full,PctHousNoPhone,-0.0003492669607013
+markovian_full,PctWOFullPlumb,-0.0019497948323344
+markovian_full,OwnOccLowQuart,0.0019106364678422
+markovian_full,OwnOccMedVal,0.0029575867255595
+markovian_full,OwnOccHiQuart,0.0045311232313782
+markovian_full,OwnOccQrange,-0.0016234979518521
+markovian_full,RentLowQ,0.0004584148765419
+markovian_full,RentMedian,0.0007187231358609
+markovian_full,RentHighQ,-0.0002623835498329
+markovian_full,RentQrange,0.0020927216011954
+markovian_full,MedRent,0.0003852378681223
+markovian_full,MedRentPctHousInc,0.0088294275955381
+markovian_full,MedOwnCostPctInc,-0.0010268595621468
+markovian_full,MedOwnCostPctIncNoMtg,-0.0001170583144119
+markovian_full,NumInShelters,-0.0034435852212957
+markovian_full,NumStreet,-0.0001738187275459
+markovian_full,PctForeignBorn,-0.0005211354650401
+markovian_full,PctBornSameState,0.0025625744880261
+markovian_full,PctSameHouse85,0.0007917723560043
+markovian_full,PctSameCity85,-0.0003376219403424
+markovian_full,PctSameState85,0.0006651993205823
+markovian_full,LandArea,0.000314829842997
+markovian_full,PopDens,-0.0026877079296481
+markovian_full,PctUsePubTrans,0.0021228483208426
+markovian_full,LemasPctOfficDrugUn,-0.0004051576926973
+markovian_full,murders,-0.0001493370692965
+markovian_full,murdPerPop,0.0
+markovian_full,rapes,0.0049039418014392
+markovian_full,rapesPerPop,0.0223886368840552
+markovian_full,robberies,0.0088819969300893
+markovian_full,robbbPerPop,0.0143880782561914
+markovian_full,assaults,0.0121358458948496
+markovian_full,assaultPerPop,0.0701749051586732
+markovian_full,burglaries,0.0002097770290976
+markovian_full,burglPerPop,0.000917938152845
+markovian_full,larcenies,-0.0001483253033004
+markovian_full,larcPerPop,-9.036855307598124e-05
+markovian_full,autoTheft,0.0011271694468349
+markovian_full,autoTheftPerPop,-0.0007916592174556
+markovian_full,arsons,-0.0031060592913202
+markovian_full,arsonsPerPop,0.0015619573285822
+markovian_full,communityName_freq,-7.669106562746553e-05
+markovian_full,state_encoded,0.0105780289496624
+kernel_shap,population,0.0615610124557497
+kernel_shap,householdsize,0.0
+kernel_shap,racepctblack,0.4123100876328606
+kernel_shap,racePctWhite,0.056216838073256
+kernel_shap,racePctAsian,0.1302706190956875
+kernel_shap,racePctHisp,0.0
+kernel_shap,agePct12t21,0.0
+kernel_shap,agePct12t29,0.0
+kernel_shap,agePct16t24,0.0
+kernel_shap,agePct65up,0.0288162102357142
+kernel_shap,numbUrban,0.0
+kernel_shap,pctUrban,0.0
+kernel_shap,medIncome,0.0
+kernel_shap,pctWWage,0.0
+kernel_shap,pctWFarmSelf,0.09455795192675
+kernel_shap,pctWInvInc,0.1111279185548309
+kernel_shap,pctWSocSec,0.0598820574671656
+kernel_shap,pctWPubAsst,0.0609082857470232
+kernel_shap,pctWRetire,0.0
+kernel_shap,medFamInc,0.0
+kernel_shap,perCapInc,0.0964426298448093
+kernel_shap,whitePerCap,0.3792011191772665
+kernel_shap,blackPerCap,0.0080312377151379
+kernel_shap,indianPerCap,0.0072479075551291
+kernel_shap,AsianPerCap,0.01452173512276
+kernel_shap,OtherPerCap,0.1193938018549455
+kernel_shap,HispPerCap,0.0279167369094381
+kernel_shap,NumUnderPov,0.2281297510999582
+kernel_shap,PctPopUnderPov,0.0051049744901781
+kernel_shap,PctLess9thGrade,0.0516390615069621
+kernel_shap,PctNotHSGrad,0.0073597750371912
+kernel_shap,PctBSorMore,0.0468806285237079
+kernel_shap,PctUnemployed,0.2243334555039962
+kernel_shap,PctEmploy,0.0537472743878563
+kernel_shap,PctEmplManu,0.0066960850960037
+kernel_shap,PctEmplProfServ,0.0660736473671408
+kernel_shap,PctOccupManu,0.0
+kernel_shap,PctOccupMgmtProf,0.0
+kernel_shap,MalePctDivorce,0.0844838207958356
+kernel_shap,MalePctNevMarr,0.130229468065519
+kernel_shap,FemalePctDiv,0.2554695090543117
+kernel_shap,TotalPctDiv,0.0080101322227169
+kernel_shap,PersPerFam,0.0
+kernel_shap,PctFam2Par,0.0219137890959754
+kernel_shap,PctKids2Par,0.8270264973962527
+kernel_shap,PctYoungKids2Par,0.0667364437915441
+kernel_shap,PctTeen2Par,0.2042672121655241
+kernel_shap,PctWorkMomYoungKids,0.041955121026531
+kernel_shap,PctWorkMom,0.006671047651845
+kernel_shap,NumKidsBornNeverMar,0.2209996924240123
+kernel_shap,PctKidsBornNeverMar,1.0692000239882653
+kernel_shap,NumImmig,0.0
+kernel_shap,PctImmigRecent,0.0
+kernel_shap,PctImmigRec5,0.0
+kernel_shap,PctImmigRec8,0.0
+kernel_shap,PctImmigRec10,0.0111303544724074
+kernel_shap,PctRecentImmig,0.0
+kernel_shap,PctRecImmig5,0.0069649460380758
+kernel_shap,PctRecImmig8,0.0
+kernel_shap,PctRecImmig10,0.0
+kernel_shap,PctSpeakEnglOnly,0.0
+kernel_shap,PctNotSpeakEnglWell,0.0183296523757869
+kernel_shap,PctLargHouseFam,0.0
+kernel_shap,PctLargHouseOccup,0.0
+kernel_shap,PersPerOccupHous,0.0
+kernel_shap,PersPerOwnOccHous,0.0729348494582329
+kernel_shap,PersPerRentOccHous,0.0202431363376868
+kernel_shap,PctPersOwnOccup,0.2898611603867534
+kernel_shap,PctPersDenseHous,0.2899429059436549
+kernel_shap,PctHousLess3BR,0.0
+kernel_shap,MedNumBR,0.0
+kernel_shap,HousVacant,0.1867651576045715
+kernel_shap,PctHousOccup,0.0
+kernel_shap,PctHousOwnOcc,0.019605740919668
+kernel_shap,PctVacantBoarded,0.1960602104011197
+kernel_shap,PctVacMore6Mos,0.0
+kernel_shap,MedYrHousBuilt,0.4147299078970901
+kernel_shap,PctHousNoPhone,0.1118528118971981
+kernel_shap,PctWOFullPlumb,0.1779893126266978
+kernel_shap,OwnOccLowQuart,0.0211251765229841
+kernel_shap,OwnOccMedVal,0.0
+kernel_shap,OwnOccHiQuart,0.0728641055001428
+kernel_shap,OwnOccQrange,1.5161945260893943
+kernel_shap,RentLowQ,0.051372608892804
+kernel_shap,RentMedian,0.0
+kernel_shap,RentHighQ,0.0
+kernel_shap,RentQrange,0.1897319485161404
+kernel_shap,MedRent,0.0
+kernel_shap,MedRentPctHousInc,0.289720813900897
+kernel_shap,MedOwnCostPctInc,0.0217407411341579
+kernel_shap,MedOwnCostPctIncNoMtg,0.4590626027316371
+kernel_shap,NumInShelters,0.0391410972801811
+kernel_shap,NumStreet,0.0
+kernel_shap,PctForeignBorn,0.0982126982724145
+kernel_shap,PctBornSameState,0.0203162212389747
+kernel_shap,PctSameHouse85,0.0
+kernel_shap,PctSameCity85,0.0362579442416749
+kernel_shap,PctSameState85,0.0
+kernel_shap,LandArea,0.3900103373778812
+kernel_shap,PopDens,0.0504593629814345
+kernel_shap,PctUsePubTrans,0.5615680307769817
+kernel_shap,LemasPctOfficDrugUn,0.0050395391619554
+kernel_shap,murders,0.0
+kernel_shap,murdPerPop,5.362148457839826
+kernel_shap,rapes,35.532067407440096
+kernel_shap,rapesPerPop,27.922145595851458
+kernel_shap,robberies,0.3978996084300035
+kernel_shap,robbbPerPop,97.67304212582692
+kernel_shap,assaults,4.370471481716007
+kernel_shap,assaultPerPop,246.61130562615696
+kernel_shap,burglaries,0.724152176463003
+kernel_shap,burglPerPop,0.1814805733634463
+kernel_shap,larcenies,0.3378407429485245
+kernel_shap,larcPerPop,1.178892299345066
+kernel_shap,autoTheft,0.0
+kernel_shap,autoTheftPerPop,1.6031979403524326
+kernel_shap,arsons,0.191167375277334
+kernel_shap,arsonsPerPop,0.0298211029956569
+kernel_shap,communityName_freq,0.0
+kernel_shap,state_encoded,3.751293178809077
+sampling_shap,population,0.6207359881654261
+sampling_shap,householdsize,0.0433720115099907
+sampling_shap,racepctblack,1.1330469878001346
+sampling_shap,racePctWhite,0.5645360075787967
+sampling_shap,racePctAsian,0.4402216795189653
+sampling_shap,racePctHisp,0.3315552134342451
+sampling_shap,agePct12t21,0.1504932651277525
+sampling_shap,agePct12t29,0.0686436927353758
+sampling_shap,agePct16t24,0.2915182742242105
+sampling_shap,agePct65up,0.2323698838779684
+sampling_shap,numbUrban,0.198951820723366
+sampling_shap,pctUrban,0.0
+sampling_shap,medIncome,0.1939303831062712
+sampling_shap,pctWWage,0.2083613752554211
+sampling_shap,pctWFarmSelf,0.4399640695138828
+sampling_shap,pctWInvInc,0.5712370378697252
+sampling_shap,pctWSocSec,0.3905542762093851
+sampling_shap,pctWPubAsst,0.3918679409886405
+sampling_shap,pctWRetire,0.2347238494760525
+sampling_shap,medFamInc,0.0887363623989719
+sampling_shap,perCapInc,0.621819842086293
+sampling_shap,whitePerCap,0.8836411348093456
+sampling_shap,blackPerCap,0.3387551221998863
+sampling_shap,indianPerCap,0.1715520354371454
+sampling_shap,AsianPerCap,0.4430373091088349
+sampling_shap,OtherPerCap,0.4955971060156063
+sampling_shap,HispPerCap,0.2774540724841683
+sampling_shap,NumUnderPov,1.154738346103775
+sampling_shap,PctPopUnderPov,0.0955459456907661
+sampling_shap,PctLess9thGrade,0.2244422525286637
+sampling_shap,PctNotHSGrad,0.2539409312830475
+sampling_shap,PctBSorMore,0.4206483968883081
+sampling_shap,PctUnemployed,0.8490990500857375
+sampling_shap,PctEmploy,0.2465092202067198
+sampling_shap,PctEmplManu,0.2712255714964538
+sampling_shap,PctEmplProfServ,0.5255208212674849
+sampling_shap,PctOccupManu,0.2043911189550127
+sampling_shap,PctOccupMgmtProf,0.2369821547532847
+sampling_shap,MalePctDivorce,0.4426839531033114
+sampling_shap,MalePctNevMarr,0.5823120225246513
+sampling_shap,FemalePctDiv,0.8175553929992292
+sampling_shap,TotalPctDiv,0.542742319826139
+sampling_shap,PersPerFam,0.1513743853560488
+sampling_shap,PctFam2Par,0.9203270806098446
+sampling_shap,PctKids2Par,1.524093375006291
+sampling_shap,PctYoungKids2Par,0.7520601879597484
+sampling_shap,PctTeen2Par,0.9438908354850696
+sampling_shap,PctWorkMomYoungKids,0.3585276588719063
+sampling_shap,PctWorkMom,0.1253374829717977
+sampling_shap,NumKidsBornNeverMar,1.4335365675056535
+sampling_shap,PctKidsBornNeverMar,1.8744957996509088
+sampling_shap,NumImmig,0.1882328273717132
+sampling_shap,PctImmigRecent,0.2327311046798532
+sampling_shap,PctImmigRec5,0.2669342433440654
+sampling_shap,PctImmigRec8,0.2303112176311894
+sampling_shap,PctImmigRec10,0.535831635505147
+sampling_shap,PctRecentImmig,0.0439590586394337
+sampling_shap,PctRecImmig5,0.1238810946418682
+sampling_shap,PctRecImmig8,0.1846965563458405
+sampling_shap,PctRecImmig10,0.189558224074887
+sampling_shap,PctSpeakEnglOnly,0.2662995731153604
+sampling_shap,PctNotSpeakEnglWell,0.2525206773023494
+sampling_shap,PctLargHouseFam,0.073034760111669
+sampling_shap,PctLargHouseOccup,0.1253660118750628
+sampling_shap,PersPerOccupHous,0.0126766293182573
+sampling_shap,PersPerOwnOccHous,0.3919505050637611
+sampling_shap,PersPerRentOccHous,0.4309797538751072
+sampling_shap,PctPersOwnOccup,0.7716652202117613
+sampling_shap,PctPersDenseHous,0.9242258321507856
+sampling_shap,PctHousLess3BR,0.2053583672479124
+sampling_shap,MedNumBR,0.0
+sampling_shap,HousVacant,0.8196613674669263
+sampling_shap,PctHousOccup,0.2996609603500423
+sampling_shap,PctHousOwnOcc,0.3236219673274525
+sampling_shap,PctVacantBoarded,0.6607224670805191
+sampling_shap,PctVacMore6Mos,0.4542404835991149
+sampling_shap,MedYrHousBuilt,0.6367589672900948
+sampling_shap,PctHousNoPhone,0.5346965842016435
+sampling_shap,PctWOFullPlumb,0.6064411214924982
+sampling_shap,OwnOccLowQuart,0.3727008950786916
+sampling_shap,OwnOccMedVal,0.1862971770705126
+sampling_shap,OwnOccHiQuart,0.4105901463698111
+sampling_shap,OwnOccQrange,2.213019859514165
+sampling_shap,RentLowQ,0.3427674190909907
+sampling_shap,RentMedian,0.0774579483058034
+sampling_shap,RentHighQ,0.0289443698164258
+sampling_shap,RentQrange,0.5006320764763388
+sampling_shap,MedRent,0.2098181360360656
+sampling_shap,MedRentPctHousInc,0.577054858376359
+sampling_shap,MedOwnCostPctInc,0.4059842046552924
+sampling_shap,MedOwnCostPctIncNoMtg,1.043015879668579
+sampling_shap,NumInShelters,0.4044090712329254
+sampling_shap,NumStreet,0.21897415921646
+sampling_shap,PctForeignBorn,0.4481002540042592
+sampling_shap,PctBornSameState,0.3374002975844078
+sampling_shap,PctSameHouse85,0.1923329600909945
+sampling_shap,PctSameCity85,0.73290304023086
+sampling_shap,PctSameState85,0.1751310359720386
+sampling_shap,LandArea,0.922129234302761
+sampling_shap,PopDens,0.4024055166936647
+sampling_shap,PctUsePubTrans,1.1213805675233677
+sampling_shap,LemasPctOfficDrugUn,0.0104526182190461
+sampling_shap,murders,0.7463407139473595
+sampling_shap,murdPerPop,5.917913499521498
+sampling_shap,rapes,36.17194229458962
+sampling_shap,rapesPerPop,28.200135786557965
+sampling_shap,robberies,1.417575320664251
+sampling_shap,robbbPerPop,98.07275041563042
+sampling_shap,assaults,5.0835270883545345
+sampling_shap,assaultPerPop,247.52628907403417
+sampling_shap,burglaries,1.8033203479802895
+sampling_shap,burglPerPop,0.7371756909974798
+sampling_shap,larcenies,0.9375521558978844
+sampling_shap,larcPerPop,1.9785200083306669
+sampling_shap,autoTheft,0.3679268211316734
+sampling_shap,autoTheftPerPop,2.4205210703309943
+sampling_shap,arsons,0.9422038242611154
+sampling_shap,arsonsPerPop,0.390664640543235
+sampling_shap,communityName_freq,0.0
+sampling_shap,state_encoded,4.324375780981388
+leverage_shap,PctFam2Par,0.0069904377175371
+leverage_shap,PctKids2Par,0.0208079289061754
+leverage_shap,PctPersOwnOccup,-0.0031212902096031
+leverage_shap,PctHousOwnOcc,0.0164828590893974
+leverage_shap,PersPerOccupHous,0.0075667326457263
+leverage_shap,PersPerOwnOccHous,-0.0022935782228016
+leverage_shap,FemalePctDiv,0.0043238057235128
+leverage_shap,TotalPctDiv,0.0280276186959373
+leverage_shap,population,0.0040947125171081
+leverage_shap,numbUrban,-0.0136035021881303
+leverage_shap,PctYoungKids2Par,0.0190072062826626
+leverage_shap,PersPerFam,-0.0009269958699868
+leverage_shap,PctTeen2Par,0.0014278980240349
+leverage_shap,PctHousOccup,0.029655003876391
+leverage_shap,MedYrHousBuilt,-0.0047913690886426
+leverage_shap,PctWorkMomYoungKids,0.0024954082902357
+leverage_shap,PctWorkMom,-0.0157948552561387
+leverage_shap,householdsize,-0.0136248469320571
+leverage_shap,pctWWage,0.0054174112870605
+leverage_shap,PctEmploy,0.0118407807754444
+leverage_shap,MalePctDivorce,0.003412346258079
+leverage_shap,RentMedian,0.0057661864553319
+leverage_shap,RentHighQ,-0.0104097098737948
+leverage_shap,MedRent,0.0128626675610382
+leverage_shap,medIncome,0.0153257948518856
+leverage_shap,medFamInc,0.0106363915411765
+leverage_shap,OwnOccLowQuart,-0.0176310464044767
+leverage_shap,OwnOccMedVal,0.0210655461481914
+leverage_shap,perCapInc,0.0003465510114327
+leverage_shap,whitePerCap,0.0231500544678057
+leverage_shap,PctRecImmig8,-0.0103921539649704
+leverage_shap,PctRecImmig10,-0.003135571806923
+leverage_shap,PctSameState85,0.0042910625367756
+leverage_shap,PctRecImmig5,-0.0079222869952286
+leverage_shap,PctSameCity85,0.0014425732586856
+leverage_shap,PersPerRentOccHous,0.0056352521929949
+leverage_shap,OwnOccHiQuart,0.0069529180761934
+leverage_shap,RentLowQ,-0.009661321633263
+leverage_shap,MedOwnCostPctIncNoMtg,0.0079585403301345
+leverage_shap,MedRentPctHousInc,0.0079430593486748
+leverage_shap,PctRecentImmig,-0.0042435776090545
+leverage_shap,PctSameHouse85,-0.0013118714738082
+leverage_shap,PctLargHouseFam,-0.0004640635914421
+leverage_shap,PctLargHouseOccup,0.0010971486502486
+leverage_shap,racePctWhite,0.0181343338986418
+leverage_shap,MedOwnCostPctInc,-0.0040646026714651
+leverage_shap,agePct65up,-0.0145337545545812
+leverage_shap,pctWSocSec,-0.0105679596129262
+leverage_shap,PctSpeakEnglOnly,0.0122695228173427
+leverage_shap,agePct12t29,-0.00279805721578
+leverage_shap,MalePctNevMarr,-0.0026609554676176
+leverage_shap,agePct12t21,-0.0072957348490797
+leverage_shap,PctImmigRec8,0.0088822575933367
+leverage_shap,PctImmigRec10,0.0013179127067785
+leverage_shap,agePct16t24,0.0044802212130123
+leverage_shap,MedNumBR,4.99111354309344e-05
+leverage_shap,NumUnderPov,0.0170004067541533
+leverage_shap,burglaries,0.0130432903378326
+leverage_shap,larcenies,0.0183719105886794
+leverage_shap,autoTheft,0.0009102383132813
+leverage_shap,PctImmigRec5,-0.0108209594609092
+leverage_shap,NumKidsBornNeverMar,0.0202480194483861
+leverage_shap,pctWInvInc,0.0110373670637186
+leverage_shap,PctOccupMgmtProf,-0.0159905197148515
+leverage_shap,murders,0.0198541718928953
+leverage_shap,PctBornSameState,0.0110645793407274
+leverage_shap,PctBSorMore,0.0062825757030281
+leverage_shap,robberies,0.0289951802649148
+leverage_shap,pctWRetire,-0.0080326505702413
+leverage_shap,PctImmigRecent,0.0098190210832315
+leverage_shap,PctHousLess3BR,0.0134711535035361
+leverage_shap,PctForeignBorn,-0.0012501418552921
+leverage_shap,RentQrange,0.0123291202340439
+leverage_shap,PctLess9thGrade,-0.0011231609672695
+leverage_shap,PctNotHSGrad,0.0188719018257523
+leverage_shap,PctEmplProfServ,-0.0150205810855237
+leverage_shap,OwnOccQrange,0.0030683796032694
+leverage_shap,assaults,0.1253208221711201
+leverage_shap,PctOccupManu,0.0052957075045324
+leverage_shap,pctWPubAsst,0.0077098794541617
+leverage_shap,PctUnemployed,0.005405687916372
+leverage_shap,NumInShelters,-0.0002682012672506
+leverage_shap,NumStreet,0.0045285994603252
+leverage_shap,PctEmplManu,-0.0006425912218406
+leverage_shap,HousVacant,0.0077313732385693
+leverage_shap,state_encoded,0.0290200613997972
+leverage_shap,PctVacMore6Mos,0.0041408318695688
+leverage_shap,NumImmig,-0.0044616243631884
+leverage_shap,HispPerCap,-0.0040263941738553
+leverage_shap,PctPopUnderPov,0.0027789250236972
+leverage_shap,racePctHisp,-0.0031200251332307
+leverage_shap,PctNotSpeakEnglWell,0.0103428972987203
+leverage_shap,PctPersDenseHous,0.0151608433675376
+leverage_shap,PctHousNoPhone,0.0191631211387901
+leverage_shap,arsons,0.0058034225317647
+leverage_shap,larcPerPop,0.023608391126309
+leverage_shap,rapes,0.0363446487426809
+leverage_shap,communityName_freq,-0.006048947396826
+leverage_shap,burglPerPop,0.0236459668894123
+leverage_shap,pctUrban,-0.0022872182935701
+leverage_shap,racepctblack,0.0094726833674944
+leverage_shap,PctKidsBornNeverMar,-0.0038183765484606
+leverage_shap,AsianPerCap,0.0016836933450484
+leverage_shap,robbbPerPop,0.0561551924987414
+leverage_shap,autoTheftPerPop,-0.0050226921954045
+leverage_shap,blackPerCap,-0.0013990428409688
+leverage_shap,PctWOFullPlumb,-0.0060972614741563
+leverage_shap,rapesPerPop,0.0627525601117146
+leverage_shap,OtherPerCap,-0.0032020940397883
+leverage_shap,assaultPerPop,0.2109080308690717
+leverage_shap,pctWFarmSelf,0.0092175671046754
+leverage_shap,PopDens,-0.0050701577344425
+leverage_shap,murdPerPop,-0.0057597421204053
+leverage_shap,PctVacantBoarded,0.0042667570186362
+leverage_shap,PctUsePubTrans,-0.0009269860208455
+leverage_shap,racePctAsian,-0.004489508898502
+leverage_shap,arsonsPerPop,0.0138580964798752
+leverage_shap,indianPerCap,-0.0059281054157841
+leverage_shap,LemasPctOfficDrugUn,0.0033908619128202
+leverage_shap,LandArea,-0.013750880995922
+shapg | rank_deletion_cosine,PctFam2Par,0.29117728810544163
+shapg | rank_deletion_cosine,PctKids2Par,0.3583358599782891
+shapg | rank_deletion_cosine,PctPersOwnOccup,0.17663041056806456
+shapg | rank_deletion_cosine,PctHousOwnOcc,0.08194339600597383
+shapg | rank_deletion_cosine,PersPerOccupHous,-0.07839722997006482
+shapg | rank_deletion_cosine,PersPerOwnOccHous,-0.008808666199721815
+shapg | rank_deletion_cosine,FemalePctDiv,0.15729338897341205
+shapg | rank_deletion_cosine,TotalPctDiv,0.2008180582348043
+shapg | rank_deletion_cosine,population,-0.003497973575505878
+shapg | rank_deletion_cosine,numbUrban,0.06112508935611464
+shapg | rank_deletion_cosine,PctYoungKids2Par,0.2543746268254429
+shapg | rank_deletion_cosine,PersPerFam,-0.0307952759732939
+shapg | rank_deletion_cosine,PctTeen2Par,0.26458566994635324
+shapg | rank_deletion_cosine,PctHousOccup,0.025652065061728846
+shapg | rank_deletion_cosine,MedYrHousBuilt,-0.028235642564946428
+shapg | rank_deletion_cosine,PctWorkMomYoungKids,-0.11931051382013602
+shapg | rank_deletion_cosine,PctWorkMom,-0.06323152377735886
+shapg | rank_deletion_cosine,householdsize,-0.10207297578661673
+shapg | rank_deletion_cosine,pctWWage,-0.03659406372006119
+shapg | rank_deletion_cosine,PctEmploy,0.030710348394940523
+shapg | rank_deletion_cosine,MalePctDivorce,0.15197144098943788
+shapg | rank_deletion_cosine,RentMedian,0.0003397288365915019
+shapg | rank_deletion_cosine,RentHighQ,-0.0045334289038757025
+shapg | rank_deletion_cosine,MedRent,-0.038283635673404315
+shapg | rank_deletion_cosine,medIncome,0.011346402046785165
+shapg | rank_deletion_cosine,medFamInc,-6.700895604555557e-05
+shapg | rank_deletion_cosine,OwnOccLowQuart,-0.04049335540353566
+shapg | rank_deletion_cosine,OwnOccMedVal,-0.04891020320053696
+shapg | rank_deletion_cosine,perCapInc,-0.005924508105480009
+shapg | rank_deletion_cosine,whitePerCap,-0.02180612014360761
+shapg | rank_deletion_cosine,PctRecImmig8,0.007213722193025629
+shapg | rank_deletion_cosine,PctRecImmig10,0.02137837293188055
+shapg | rank_deletion_cosine,PctSameState85,-0.07057689814522738
+shapg | rank_deletion_cosine,PctRecImmig5,-0.0020619716479566286
+shapg | rank_deletion_cosine,PctSameCity85,-0.09783322091984797
+shapg | rank_deletion_cosine,PersPerRentOccHous,-0.039438797054203
+shapg | rank_deletion_cosine,OwnOccHiQuart,-0.06348719680193532
+shapg | rank_deletion_cosine,RentLowQ,-0.09166606228217322
+shapg | rank_deletion_cosine,MedOwnCostPctIncNoMtg,-0.027446455669101366
+shapg | rank_deletion_cosine,MedRentPctHousInc,-0.012913426944338224
+shapg | rank_deletion_cosine,PctRecentImmig,-0.027570793674482785
+shapg | rank_deletion_cosine,PctSameHouse85,-0.07141533644479053
+shapg | rank_deletion_cosine,PctLargHouseFam,0.03380696607794964
+shapg | rank_deletion_cosine,PctLargHouseOccup,-0.012263821410547882
+shapg | rank_deletion_cosine,racePctWhite,0.2544815860892909
+shapg | rank_deletion_cosine,MedOwnCostPctInc,-0.03114154309223799
+shapg | rank_deletion_cosine,agePct65up,-0.08183052927711493
+shapg | rank_deletion_cosine,pctWSocSec,-0.11962187957562087
+shapg | rank_deletion_cosine,PctSpeakEnglOnly,-0.004148984871595207
+shapg | rank_deletion_cosine,agePct12t29,0.020270135541847756
+shapg | rank_deletion_cosine,MalePctNevMarr,0.07949836840704905
+shapg | rank_deletion_cosine,agePct12t21,-0.04728262704477365
+shapg | rank_deletion_cosine,PctImmigRec8,-0.03152576648850819
+shapg | rank_deletion_cosine,PctImmigRec10,-0.022434836328536323
+shapg | rank_deletion_cosine,agePct16t24,-0.03581255689615481
+shapg | rank_deletion_cosine,MedNumBR,0.0867154444025181
+shapg | rank_deletion_cosine,NumUnderPov,0.08680569346962339
+shapg | rank_deletion_cosine,burglaries,0.3864787479199503
+shapg | rank_deletion_cosine,larcenies,0.22666581457058543
+shapg | rank_deletion_cosine,autoTheft,0.11866248017637143
+shapg | rank_deletion_cosine,PctImmigRec5,-0.04382420586475083
+shapg | rank_deletion_cosine,NumKidsBornNeverMar,0.16702636385262926
+shapg | rank_deletion_cosine,pctWInvInc,0.21138095319574096
+shapg | rank_deletion_cosine,PctOccupMgmtProf,-0.04018114960736008
+shapg | rank_deletion_cosine,murders,0.12528566939652788
+shapg | rank_deletion_cosine,PctBornSameState,-0.09187396238745493
+shapg | rank_deletion_cosine,PctBSorMore,0.042704551974100724
+shapg | rank_deletion_cosine,robberies,0.19518730418642374
+shapg | rank_deletion_cosine,pctWRetire,-0.07862240086449968
+shapg | rank_deletion_cosine,PctImmigRecent,-0.05190166986326844
+shapg | rank_deletion_cosine,PctHousLess3BR,0.061838476976916745
+shapg | rank_deletion_cosine,PctForeignBorn,-0.04544700213405084
+shapg | rank_deletion_cosine,RentQrange,-0.0062725834860809515
+shapg | rank_deletion_cosine,PctLess9thGrade,0.07596397246708059
+shapg | rank_deletion_cosine,PctNotHSGrad,0.12645318512147768
+shapg | rank_deletion_cosine,PctEmplProfServ,-0.04011818496339847
+shapg | rank_deletion_cosine,OwnOccQrange,-0.03491183666584574
+shapg | rank_deletion_cosine,assaults,0.3765066884933
+shapg | rank_deletion_cosine,PctOccupManu,0.01264341852608808
+shapg | rank_deletion_cosine,pctWPubAsst,0.15524771566099355
+shapg | rank_deletion_cosine,PctUnemployed,0.07417027460525033
+shapg | rank_deletion_cosine,NumInShelters,0.018493227301125185
+shapg | rank_deletion_cosine,NumStreet,0.07884839590568539
+shapg | rank_deletion_cosine,PctEmplManu,-0.033062752252478844
+shapg | rank_deletion_cosine,HousVacant,0.18002243435641296
+shapg | rank_deletion_cosine,state_encoded,0.1500220218057352
+shapg | rank_deletion_cosine,PctVacMore6Mos,-0.07774779728245906
+shapg | rank_deletion_cosine,NumImmig,-0.009278682359459074
+shapg | rank_deletion_cosine,HispPerCap,-0.03405620411750382
+shapg | rank_deletion_cosine,PctPopUnderPov,0.13268108476732876
+shapg | rank_deletion_cosine,racePctHisp,-0.029941848733747722
+shapg | rank_deletion_cosine,PctNotSpeakEnglWell,0.027826937211126612
+shapg | rank_deletion_cosine,PctPersDenseHous,0.13026404538834896
+shapg | rank_deletion_cosine,PctHousNoPhone,0.16994074289039235
+shapg | rank_deletion_cosine,arsons,0.03108793026399404
+shapg | rank_deletion_cosine,larcPerPop,0.1552716995100703
+shapg | rank_deletion_cosine,rapes,0.3234116425803878
+shapg | rank_deletion_cosine,communityName_freq,0.011531580022347443
+shapg | rank_deletion_cosine,burglPerPop,0.44842482753676954
+shapg | rank_deletion_cosine,pctUrban,0.030909631536256754
+shapg | rank_deletion_cosine,racepctblack,0.21332831496931448
+shapg | rank_deletion_cosine,PctKidsBornNeverMar,0.3571024477234882
+shapg | rank_deletion_cosine,AsianPerCap,-0.010522442305873236
+shapg | rank_deletion_cosine,robbbPerPop,0.6297157245714512
+shapg | rank_deletion_cosine,autoTheftPerPop,0.15610551480076607
+shapg | rank_deletion_cosine,blackPerCap,0.06212622465175399
+shapg | rank_deletion_cosine,PctWOFullPlumb,0.09316761702965953
+shapg | rank_deletion_cosine,rapesPerPop,0.24188355635846792
+shapg | rank_deletion_cosine,OtherPerCap,-0.00841951897074128
+shapg | rank_deletion_cosine,assaultPerPop,0.7414345892105835
+shapg | rank_deletion_cosine,pctWFarmSelf,0.0005887030458594511
+shapg | rank_deletion_cosine,PopDens,0.06007771243529875
+shapg | rank_deletion_cosine,murdPerPop,0.24830966450137515
+shapg | rank_deletion_cosine,PctVacantBoarded,0.09201259170184695
+shapg | rank_deletion_cosine,PctUsePubTrans,-0.06865493241283449
+shapg | rank_deletion_cosine,racePctAsian,-0.09559301212061133
+shapg | rank_deletion_cosine,arsonsPerPop,0.09905435217801195
+shapg | rank_deletion_cosine,indianPerCap,-0.04173941597660563
+shapg | rank_deletion_cosine,LemasPctOfficDrugUn,0.026217182719289023
+shapg | rank_deletion_cosine,LandArea,-0.01319009269345301
+shapg | rank_deletion_mutual_info,burglPerPop,0.5048307290145371
+shapg | rank_deletion_mutual_info,larcPerPop,0.16114629497320976
+shapg | rank_deletion_mutual_info,autoTheftPerPop,0.1973594428748291
+shapg | rank_deletion_mutual_info,PopDens,-0.01675107105233309
+shapg | rank_deletion_mutual_info,population,0.05144065284665067
+shapg | rank_deletion_mutual_info,medFamInc,0.018378857294312934
+shapg | rank_deletion_mutual_info,medIncome,0.01698087270187082
+shapg | rank_deletion_mutual_info,assaultPerPop,0.7936382930528432
+shapg | rank_deletion_mutual_info,whitePerCap,-0.024972303966590115
+shapg | rank_deletion_mutual_info,perCapInc,-0.031552670000118965
+shapg | rank_deletion_mutual_info,HispPerCap,-0.02957090038556831
+shapg | rank_deletion_mutual_info,AsianPerCap,0.010285202803995808
+shapg | rank_deletion_mutual_info,blackPerCap,0.0900100201831755
+shapg | rank_deletion_mutual_info,NumUnderPov,0.23899634064037412
+shapg | rank_deletion_mutual_info,robbbPerPop,0.588783638000778
+shapg | rank_deletion_mutual_info,PctBornSameState,-0.08800794745019047
+shapg | rank_deletion_mutual_info,PctPersOwnOccup,0.24180714644236284
+shapg | rank_deletion_mutual_info,PctHousOwnOcc,0.12862696578421773
+shapg | rank_deletion_mutual_info,PctImmigRec10,-0.005352118322795585
+shapg | rank_deletion_mutual_info,PctVacMore6Mos,-0.037571188688258754
+shapg | rank_deletion_mutual_info,pctWInvInc,0.2130286766239129
+shapg | rank_deletion_mutual_info,PctHousLess3BR,0.13495966667141424
+shapg | rank_deletion_mutual_info,PctImmigRec8,-0.020867229604015325
+shapg | rank_deletion_mutual_info,PctSameHouse85,-0.01875535128840311
+shapg | rank_deletion_mutual_info,PctKids2Par,0.4090629527899244
+shapg | rank_deletion_mutual_info,PctNotHSGrad,0.132513809570854
+shapg | rank_deletion_mutual_info,PctYoungKids2Par,0.30610750275811555
+shapg | rank_deletion_mutual_info,PctFam2Par,0.3493181149597966
+shapg | rank_deletion_mutual_info,PctBSorMore,0.029856723617724568
+shapg | rank_deletion_mutual_info,NumImmig,0.07591885725546788
+shapg | rank_deletion_mutual_info,PctTeen2Par,0.2966587044496296
+shapg | rank_deletion_mutual_info,PctSameCity85,-0.10327444772404426
+shapg | rank_deletion_mutual_info,OtherPerCap,0.011026462207300414
+shapg | rank_deletion_mutual_info,racePctWhite,0.2966547470621012
+shapg | rank_deletion_mutual_info,PctImmigRec5,0.012358721534191541
+shapg | rank_deletion_mutual_info,PctEmplManu,-0.0032126085299440613
+shapg | rank_deletion_mutual_info,pctWSocSec,-0.051421507313395065
+shapg | rank_deletion_mutual_info,PctEmploy,0.04722558919020847
+shapg | rank_deletion_mutual_info,PctWorkMomYoungKids,-0.04903470368817971
+shapg | rank_deletion_mutual_info,pctWWage,-0.0009990204321209673
+shapg | rank_deletion_mutual_info,indianPerCap,-0.02731729060618615
+shapg | rank_deletion_mutual_info,PctOccupMgmtProf,-0.04081989029669053
+shapg | rank_deletion_mutual_info,PctPopUnderPov,0.17698866203576824
+shapg | rank_deletion_mutual_info,larcenies,0.18419982727521977
+shapg | rank_deletion_mutual_info,PctOccupManu,0.0027187236264042958
+shapg | rank_deletion_mutual_info,PctWorkMom,0.00017611831878718842
+shapg | rank_deletion_mutual_info,MalePctNevMarr,0.09846460340379942
+shapg | rank_deletion_mutual_info,PctSpeakEnglOnly,0.041801559207213734
+shapg | rank_deletion_mutual_info,PctEmplProfServ,-0.007127216915711776
+shapg | rank_deletion_mutual_info,PctSameState85,-0.06483006877838116
+shapg | rank_deletion_mutual_info,OwnOccHiQuart,-0.09856230490368911
+shapg | rank_deletion_mutual_info,HousVacant,0.15014997676609315
+shapg | rank_deletion_mutual_info,PctLess9thGrade,0.06913288850669191
+shapg | rank_deletion_mutual_info,PctImmigRecent,-0.03132267885460149
+shapg | rank_deletion_mutual_info,pctWRetire,-0.06361352002715048
+shapg | rank_deletion_mutual_info,OwnOccMedVal,-0.07905424053081522
+shapg | rank_deletion_mutual_info,agePct65up,-0.07482207014801845
+shapg | rank_deletion_mutual_info,OwnOccLowQuart,-0.04293372437100218
+shapg | rank_deletion_mutual_info,agePct12t29,0.031026158037183504
+shapg | rank_deletion_mutual_info,PctForeignBorn,-0.019709708147755967
+shapg | rank_deletion_mutual_info,pctWPubAsst,0.21146288598725538
+shapg | rank_deletion_mutual_info,NumKidsBornNeverMar,0.368827253616015
+shapg | rank_deletion_mutual_info,FemalePctDiv,0.2567524983347618
+shapg | rank_deletion_mutual_info,racepctblack,0.22187912932042508
+shapg | rank_deletion_mutual_info,TotalPctDiv,0.2682102662523611
+shapg | rank_deletion_mutual_info,PctHousOccup,0.08358408726583272
+shapg | rank_deletion_mutual_info,MalePctDivorce,0.19650477197086974
+shapg | rank_deletion_mutual_info,agePct12t21,-0.03789245718165701
+shapg | rank_deletion_mutual_info,rapesPerPop,0.3039768066000053
+shapg | rank_deletion_mutual_info,agePct16t24,-0.0245094724825623
+shapg | rank_deletion_mutual_info,PctHousNoPhone,0.2129650121998617
+shapg | rank_deletion_mutual_info,PctUnemployed,0.07074719516766298
+shapg | rank_deletion_mutual_info,racePctHisp,-0.014776676650671172
+shapg | rank_deletion_mutual_info,arsonsPerPop,0.12331568423686246
+shapg | rank_deletion_mutual_info,OwnOccQrange,0.024293527373770798
+shapg | rank_deletion_mutual_info,burglaries,0.30457556813821873
+shapg | rank_deletion_mutual_info,PctPersDenseHous,0.19263348609326292
+shapg | rank_deletion_mutual_info,PctLargHouseFam,0.02651928822234506
+shapg | rank_deletion_mutual_info,PctKidsBornNeverMar,0.3957597741762954
+shapg | rank_deletion_mutual_info,RentMedian,-0.025906527688102643
+shapg | rank_deletion_mutual_info,RentHighQ,-0.031213827585643505
+shapg | rank_deletion_mutual_info,PctLargHouseOccup,0.015200321298428743
+shapg | rank_deletion_mutual_info,PctRecImmig10,-0.003653784956013706
+shapg | rank_deletion_mutual_info,MedRent,-0.08251800077399796
+shapg | rank_deletion_mutual_info,RentLowQ,-0.1323325908554035
+shapg | rank_deletion_mutual_info,PctVacantBoarded,0.08869532571447536
+shapg | rank_deletion_mutual_info,PctUsePubTrans,-0.08619549178656605
+shapg | rank_deletion_mutual_info,racePctAsian,-0.04131845918713829
+shapg | rank_deletion_mutual_info,PctRecImmig8,0.03362998416183763
+shapg | rank_deletion_mutual_info,LandArea,-0.03923834409738375
+shapg | rank_deletion_mutual_info,numbUrban,0.07369935794527116
+shapg | rank_deletion_mutual_info,PctNotSpeakEnglWell,0.00865092005325141
+shapg | rank_deletion_mutual_info,autoTheft,0.29584935508091553
+shapg | rank_deletion_mutual_info,PctRecImmig5,-0.03153259787879015
+shapg | rank_deletion_mutual_info,assaults,0.4934424145682759
+shapg | rank_deletion_mutual_info,RentQrange,0.029253194976940955
+shapg | rank_deletion_mutual_info,PctRecentImmig,-0.061605334830313274
+shapg | rank_deletion_mutual_info,pctWFarmSelf,-0.004552375522734409
+shapg | rank_deletion_mutual_info,robberies,0.40039942091140507
+shapg | rank_deletion_mutual_info,PersPerRentOccHous,-0.014283511627711687
+shapg | rank_deletion_mutual_info,MedOwnCostPctInc,-0.03610292350625066
+shapg | rank_deletion_mutual_info,householdsize,-0.07376320350315368
+shapg | rank_deletion_mutual_info,PersPerOccupHous,-0.059302946878858065
+shapg | rank_deletion_mutual_info,MedRentPctHousInc,0.0022635006988349082
+shapg | rank_deletion_mutual_info,PersPerOwnOccHous,0.007109946037335779
+shapg | rank_deletion_mutual_info,PctWOFullPlumb,0.16449508991996786
+shapg | rank_deletion_mutual_info,PersPerFam,0.036999669271110626
+shapg | rank_deletion_mutual_info,murdPerPop,0.29439746023447017
+shapg | rank_deletion_mutual_info,rapes,0.3273417619755931
+shapg | rank_deletion_mutual_info,arsons,0.16865956455724473
+shapg | rank_deletion_mutual_info,MedOwnCostPctIncNoMtg,-0.048448676311648065
+shapg | rank_deletion_mutual_info,MedYrHousBuilt,-0.016326472121948814
+shapg | rank_deletion_mutual_info,murders,0.34834579440438024
+shapg | rank_deletion_mutual_info,state_encoded,0.16788032388168378
+shapg | rank_deletion_mutual_info,NumInShelters,0.1362205315151247
+shapg | rank_deletion_mutual_info,NumStreet,0.14143891279920162
+shapg | rank_deletion_mutual_info,LemasPctOfficDrugUn,0.06947905551819117
+shapg | rank_deletion_mutual_info,pctUrban,0.062111241643092174
+shapg | rank_deletion_mutual_info,MedNumBR,0.053150071538620294
+shapg | rank_deletion_mutual_info,communityName_freq,0.0011697498026491053

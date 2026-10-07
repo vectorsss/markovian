@@ -1,0 +1,102 @@
+dataset: crimedata
+model:
+  type: LGBMRegressor
+  params:
+    n_estimators: 100
+    random_state: 42
+    verbosity: -1
+  train_test_split:
+    test_size: 0.2
+    random_state: 42
+graphs:
+  rank_deletion_cosine:
+    method: from_rank_deletion
+    params:
+      density_ratio: null
+      correlation_method: cosine
+      similarity_method: cosine
+      use_mixed_similarity: false
+  rank_deletion_mutual_info:
+    method: from_rank_deletion
+    params:
+      density_ratio: null
+      correlation_method: mutual_info
+      similarity_method: mutual_info
+      use_mixed_similarity: false
+explainers:
+  shapg:
+    class: ShapGExplainer
+    params:
+      depth: 1
+      n_samples: 3
+      approximate_by_ratio: false
+      scale: false
+      verbose: true
+  kernel_shap:
+    class: SHAPLibKernelExplainer
+    graph_dependent: false
+    params:
+      n_background: 100
+      n_explain: 100
+      seed: 42
+      verbose: true
+  sampling_shap:
+    class: SHAPLibSamplingExplainer
+    graph_dependent: false
+    params:
+      n_background: 100
+      n_explain: 100
+      seed: 42
+      verbose: true
+  leverage_shap:
+    class: LeverageScoreExplainer
+    graph_dependent: false
+    params:
+      n_samples: 3000
+      paired_sampling: true
+      use_bernoulli: true
+      random_state: 42
+  markovian_empty:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      seed: 42
+      allow_leave: true
+      min_improvement: 0.0
+      verbose: true
+  markovian_corr06:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      seed: 42
+      allow_leave: true
+      min_improvement: 0.0
+      correlation_threshold: 0.6
+      verbose: true
+  markovian_full:
+    class: MarkovianExplainer
+    graph_dependent: false
+    params:
+      seed: 42
+      allow_leave: true
+      min_improvement: 0.0
+      correlation_threshold: 0.0
+      verbose: true
+characteristic_function:
+  type: model_based
+  params:
+    no_retrain: false
+    imputation_strategy: mean
+evaluation:
+  enabled: true
+  limit: 20
+  retrain_kpi: true
+  adjusted_r2: true
+  imputation_strategy: mean
+  weighted_slope_beta: 0.8
+seed: 42
+plot:
+  figsize:
+  - 12
+  - 8
+  dpi: 300

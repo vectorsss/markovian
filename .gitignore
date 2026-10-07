@@ -1,0 +1,28 @@
+# Experiment output
+/results/
+
+# Generated figures and tables (make paper-assets)
+paper/assets/
+
+# paper/raw_results/: keep only the files the figure/table scripts read
+paper/raw_results/*/*
+!paper/raw_results/*/config.yaml
+!paper/raw_results/*/kpi_forward.json
+!paper/raw_results/*/kpi_backward.json
+!paper/raw_results/*/timing.json
+!paper/raw_results/*/markovian_metadata.json
+!paper/raw_results/*/shapley_values.csv
+!paper/raw_results/markovian_initial_housing_retrain_adj_r2_20260506_035554/transition_graph_markovian_top_k_3_empty.pdf
+
+# Datasets: only Crime and MIC (CC BY 4.0) are committed; Housing and H1N1
+# are rebuilt with data/prepare_*.py (see data/README.md)
+data/*.csv
+!data/crimedata_processing.csv
+!data/MIC_processing.csv
+data/raw/
+
+# Python / OS
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
